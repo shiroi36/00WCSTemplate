@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+
+
+	<inspection day="2020/11/24" photo="photos/hirooka/photo210323">
+		<!-- パレットの写真を指定。PALLET_ID_ORDEREDは修正指示を出したパレット -->
+	    <pallet rotno="2501">P1030166.JPG,P1030167.JPG</pallet>
+	    <pallet photo="PALLET_ID_ORDERED">P1030166.JPG,P1030167.JPG</pallet>
+		<!-- 修正指示を出した金物 RかGかGWGの大きく分けて3種類 -->
+	    <order rotno="2501" pno="2" lr="r" remark="寸法不整:リーマーR⁺0.3">P1030166.JPG,P1030167.JPG</order>
+	    <order rotno="2501" pno="3" lr="r" remark="ビード不足：GWG">P1030166.JPG,P1030167.JPG</order>
+	    <order rotno="2501" pno="4" lr="r" remark="母材キズ：G">P1030166.JPG,P1030167.JPG</order>
+		<!-- 補修合格となる金物これにはremarkは必要ない-->
+	    <repair rotno="2501" pno="5" lr="r" >P1030166.JPG,P1030167.JPG</repair>
+		<!-- 検査除外品つまり不良品 -->
+	    <defective rotno="2501" pno="6" lr="r" remark="検査対象外">P1030166.JPG,P1030167.JPG</defective>
+		<!-- 合格としてマクロ検査を行ったもの-->
+	    <macro rotno="2501" pno="7" lr="r" >P1030166.JPG,P1030167.JPG</macro>
+	</inspection>
+
+
+
+	<Setting>
+		<!-- DBのパス -->
+	    <url uname="junapp" pw="">jdbc:h2:tcp://localhost/./main2_2023</url>
+		<!-- 検査する金物の略称 -->
+	    <attachmenttype>t25,t25d</attachmenttype>
+		<!-- ロットの設定 -->
+	    <rotdef attachment="t25" num="12">2501</rotdef>
+	    <rotdef attachment="t25" num="12">2502</rotdef>
+	    <rotdef attachment="t25" num="12">2503</rotdef>
+	    <rotdef attachment="t25" num="12">2504</rotdef>
+	    <rotdef attachment="t25" num="12">2505</rotdef>
+	    <rotdef attachment="t25" num="12">2506</rotdef>
+	    <rotdef attachment="t25" num="12">2507</rotdef>
+	    <rotdef attachment="t25" num="12">2508</rotdef>
+	    <rotdef attachment="t25" num="12">2509</rotdef>
+	    <rotdef attachment="t25" num="12">2510</rotdef>
+	</Setting>
+
+
+
+
+</div>
