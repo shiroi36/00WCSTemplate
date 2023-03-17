@@ -1,0 +1,2411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ralpha131209\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-09 20:07+0900\n"
+"PO-Revision-Date: 2013-12-09 20:37+0900\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.1\n"
+"Language: ja\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. AboutForm..Caption
+#: AboutFrm.dfm:5
+msgid "About"
+msgstr "バージョン情報"
+
+#. AboutForm..Font.Name
+#. AddBlankForm..Font.Name
+#. AddTextForm..Font.Name
+#. AddTextForm..FontDialog1..Font.Name
+#. BitmapOptionForm..Font.Name
+#. ChangeOrderForm..Font.Name
+#. ColorCorrectionForm..Font.Name
+#. CombineOptionForm..Font.Name
+#. CompositeOptionForm..Font.Name
+#. CreateShortCutForm..Font.Name
+#. DecreaseColorForm..Font.Name
+#. ErrorLogForm..Font.Name
+#. FolderOptionForm..Font.Name
+#. GrayscaleForm..Font.Name
+#. HistogramForm..Font.Name
+#. JPEGOptionForm..Font.Name
+#. JPEGTranOptionForm..Font.Name
+#. MetadataOptionForm..Font.Name
+#. PictureFormatForm..Font.Name
+#. PNGOptionForm..Font.Name
+#. PreviewBaseForm..Font.Name
+#. PreviewForm..Font.Name
+#. PreviewOptionForm..Font.Name
+#. ProgressForm..Font.Name
+#. ProgressForm2..Font.Name
+#. ProgressForm3..Font.Name
+#. ResizeOptionForm..Font.Name
+#. RotationOptionForm..Font.Name
+#. SusiePluginOptionForm..Font.Name
+#. SystemOptionForm..Font.Name
+#. SystemOptionForm..FontDialog1..Font.Name
+#. ThumbnailForm..Font.Name
+#. ToneCurveOptionForm..Font.Name
+#. TrimmingOptionForm..Font.Name
+#. UnSharpMaskOptionForm..Font.Name
+#: AboutFrm.dfm:12 BitmapOptionFrm.dfm:12 ChangeOrderFrm.dfm:12
+#: ColorCorrectionFrm.dfm:14 CombineOptionFrm.dfm:12 CompositeOptionFrm.dfm:12
+#: CreateShortCutFrm.dfm:12 DecreaseColorFrm.dfm:12 ErrorLogFrm.dfm:12
+#: FolderOptionFrm.dfm:12 GrayscaleFrm.dfm:12 HistogramFrm.dfm:12
+#: JPEGOptionFrm.dfm:12 JPEGTranOptionFrm.dfm:12 MetadataOptionFrm.dfm:12
+#: PictureFormatFrm.dfm:12 PNGOptionFrm.dfm:12 PreviewBaseFrm.dfm:11
+#: PreviewFrm.dfm:13 PreviewOptionFrm.dfm:12 ProgressFrm.dfm:12
+#: ProgressFrm2.dfm:12 ProgressFrm3.dfm:14 ResizeOptionFrm.dfm:12
+#: RotationOptionFrm.dfm:12 SusiePluginOptionFrm.dfm:12 SystemOptionFrm.dfm:12
+#: SystemOptionFrm.dfm:282 ThumbnailFrm.dfm:11 ToneCurveOptionFrm.dfm:12
+#: TrimmingOptionFrm.dfm:12 UnSharpMaskOptionFrm.dfm:12
+msgid "Tahoma"
+msgstr ""
+
+#. AboutForm..Button1..Caption
+#. AddBlankForm..Button1..Caption
+#. AddTextForm..Button2..Caption
+#. BitmapOptionForm..Button1..Caption
+#. ChangeOrderForm..Button3..Caption
+#. ColorCorrectionForm..Button1..Caption
+#. CombineOptionForm..Button1..Caption
+#. CompositeOptionForm..Button2..Caption
+#. CreateShortCutForm..Button1..Caption
+#. DecreaseColorForm..Button1..Caption
+#. FolderOptionForm..Button2..Caption
+#. GrayscaleForm..Button1..Caption
+#. JPEGOptionForm..Button1..Caption
+#. JPEGTranOptionForm..Button1..Caption
+#. MetadataOptionForm..Button1..Caption
+#. PictureFormatForm..Button1..Caption
+#. PNGOptionForm..Button1..Caption
+#. PreviewOptionForm..Button2..Caption
+#. ResizeOptionForm..Button1..Caption
+#. RotationOptionForm..Button1..Caption
+#. SusiePluginOptionForm..Button5..Caption
+#. SystemOptionForm..Button1..Caption
+#. ToneCurveOptionForm..Button1..Caption
+#. TrimmingOptionForm..Button1..Caption
+#. UnSharpMaskOptionForm..Button1..Caption
+#: AboutFrm.dfm:59 BitmapOptionFrm.dfm:69 ChangeOrderFrm.dfm:47
+#: ColorCorrectionFrm.dfm:152 CombineOptionFrm.dfm:139
+#: CompositeOptionFrm.dfm:149 CreateShortCutFrm.dfm:67 DecreaseColorFrm.dfm:59
+#: FolderOptionFrm.dfm:73 GrayscaleFrm.dfm:41 JPEGOptionFrm.dfm:101
+#: JPEGTranOptionFrm.dfm:82 MetadataOptionFrm.dfm:98 PictureFormatFrm.dfm:130
+#: PNGOptionFrm.dfm:80 PreviewOptionFrm.dfm:71 ResizeOptionFrm.dfm:84
+#: RotationOptionFrm.dfm:67 SusiePluginOptionFrm.dfm:83
+#: SystemOptionFrm.dfm:110 ToneCurveOptionFrm.dfm:80 TrimmingOptionFrm.dfm:55
+#: UnSharpMaskOptionFrm.dfm:111
+msgid "OK"
+msgstr ""
+
+#. AddBlankForm..Caption
+#. Programmer's name for it: FILTER_NAME_ADDBLANK
+#: AddBlankFrm.dfm:5
+msgid "AddBlank"
+msgstr "余白の追加"
+
+#. AddBlankForm..GroupBox1..Caption
+#: AddBlankFrm.dfm:26
+msgid "BlankSize"
+msgstr "余白のサイズ"
+
+#. AddBlankForm..GroupBox1..Label4..Caption
+#. TrimmingOptionForm..Label5..Caption
+#: AddBlankFrm.dfm:48
+msgid "Branch"
+msgstr "分岐条件"
+
+#. AddBlankForm..GroupBox1..ComboBox1....Items.Strings
+#. TrimmingOptionForm..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:75
+msgid "Aspect ratio"
+msgstr "アスペクト比指定"
+
+#. AddBlankForm..GroupBox1..ComboBox1....Items.Strings
+#. TrimmingOptionForm..ComboBox1..Text
+#. TrimmingOptionForm..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:76
+msgid "Left,Top,Right,Bottom(px)"
+msgstr "左,上,右,下(px)"
+
+#. AddBlankForm..GroupBox1..ComboBox1....Items.Strings
+#. TrimmingOptionForm..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:77
+msgid "Left,Top,Right,Bottom(%)"
+msgstr "左,上,右,下(%)"
+
+#. AddBlankForm..GroupBox1..ComboBox3....Items.Strings
+#. TrimmingOptionForm..ComboBox3....Items.Strings
+#: AddBlankFrm.dfm:88
+msgid "W >= H or W < H"
+msgstr ""
+
+#. AddBlankForm..GroupBox1..ComboBox3....Items.Strings
+#. TrimmingOptionForm..ComboBox3....Items.Strings
+#: AddBlankFrm.dfm:89
+msgid "W > H or W <= H"
+msgstr ""
+
+#. AddBlankForm..GroupBox1..ComboBox3....Items.Strings
+#. TrimmingOptionForm..ComboBox3....Items.Strings
+#: AddBlankFrm.dfm:90
+msgid "ALL"
+msgstr ""
+
+#. AddBlankForm..GroupBox2..Caption
+#: AddBlankFrm.dfm:98
+msgid "BlankColor"
+msgstr "余白の色"
+
+#. AddBlankForm..GroupBox2..Panel1..Label1..Caption
+#. AddBlankForm..GroupBox3..Panel7..Label9..Caption
+#. AddTextForm..Label6..Caption
+#. AddTextForm..Label5..Caption
+#. AddTextForm..Panel3..Label12..Caption
+#. AddTextForm..Panel4..Label16..Caption
+#. CompositeOptionForm..Label4..Caption
+#: AddBlankFrm.dfm:113 AddTextFrm.dfm:85 AddTextFrm.dfm:216 AddTextFrm.dfm:426
+#: CompositeOptionFrm.dfm:51
+msgid "Opacity"
+msgstr "不透明度"
+
+#. AddBlankForm..GroupBox2..Panel1..Label14..Caption
+#. AddBlankForm..GroupBox3..Panel7..Label8..Caption
+#. AddTextForm..Panel3..Label11..Caption
+#. AddTextForm..Panel4..Label15..Caption
+#: AddBlankFrm.dfm:121 AddTextFrm.dfm:418
+msgid "Color"
+msgstr "色"
+
+#. AddBlankForm..GroupBox2..ComboBox2..Text
+#. AddBlankForm..GroupBox2..ComboBox2....Items.Strings
+#. AddTextForm..ComboBox1..Text
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1..Text
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#. DecreaseColorForm..Panel1..ComboBox1....Items.Strings
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:151 AddTextFrm.dfm:141 CompositeOptionFrm.dfm:107
+#: CompositeOptionFrm.dfm:110 DecreaseColorFrm.dfm:144 PNGOptionFrm.dfm:179
+msgid "TopLeft"
+msgstr "左上"
+
+#. AddBlankForm..GroupBox2..ComboBox2....Items.Strings
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#. DecreaseColorForm..Panel1..ComboBox1....Items.Strings
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:155 DecreaseColorFrm.dfm:146 PNGOptionFrm.dfm:181
+msgid "TopRight"
+msgstr "右上"
+
+#. AddBlankForm..GroupBox2..ComboBox2....Items.Strings
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#. DecreaseColorForm..Panel1..ComboBox1....Items.Strings
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:156 DecreaseColorFrm.dfm:145 PNGOptionFrm.dfm:180
+msgid "BottomLeft"
+msgstr "左下"
+
+#. AddBlankForm..GroupBox2..ComboBox2....Items.Strings
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#. DecreaseColorForm..Panel1..ComboBox1..Text
+#. DecreaseColorForm..Panel1..ComboBox1....Items.Strings
+#. PNGOptionForm..Panel3..ComboBox1..Text
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:157 DecreaseColorFrm.dfm:141 DecreaseColorFrm.dfm:147
+#: PNGOptionFrm.dfm:175 PNGOptionFrm.dfm:182
+msgid "BottomRight"
+msgstr "右下"
+
+#. AddBlankForm..GroupBox2..ComboBox2....Items.Strings
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#: AddBlankFrm.dfm:158
+msgid "Fixed"
+msgstr "固定色"
+
+#. AddBlankForm..Button2..Caption
+#. AddTextForm..Button3..Caption
+#. BitmapOptionForm..Button2..Caption
+#. ChangeOrderForm..Button4..Caption
+#. ColorCorrectionForm..Button2..Caption
+#. CombineOptionForm..Button2..Caption
+#. CompositeOptionForm..Button3..Caption
+#. CreateShortCutForm..Button2..Caption
+#. DecreaseColorForm..Button2..Caption
+#. FolderOptionForm..Button3..Caption
+#. GrayscaleForm..Button2..Caption
+#. JPEGOptionForm..Button2..Caption
+#. JPEGTranOptionForm..Button2..Caption
+#. MetadataOptionForm..Button2..Caption
+#. PictureFormatForm..Button2..Caption
+#. PNGOptionForm..Button2..Caption
+#. PreviewOptionForm..Button3..Caption
+#. ProgressForm..Button1..Caption
+#. ProgressForm2..Button1..Caption
+#. ResizeOptionForm..Button2..Caption
+#. RotationOptionForm..Button2..Caption
+#. SusiePluginOptionForm..Button6..Caption
+#. SystemOptionForm..Button2..Caption
+#. ToneCurveOptionForm..Button2..Caption
+#. TrimmingOptionForm..Button2..Caption
+#. UnSharpMaskOptionForm..Button2..Caption
+#: AddBlankFrm.dfm:177 ChangeOrderFrm.dfm:59 ColorCorrectionFrm.dfm:164
+#: CombineOptionFrm.dfm:151 CompositeOptionFrm.dfm:160
+#: CreateShortCutFrm.dfm:78 DecreaseColorFrm.dfm:70 FolderOptionFrm.dfm:85
+#: GrayscaleFrm.dfm:52 JPEGOptionFrm.dfm:113 JPEGTranOptionFrm.dfm:93
+#: MetadataOptionFrm.dfm:110 PictureFormatFrm.dfm:142 PNGOptionFrm.dfm:92
+#: PreviewOptionFrm.dfm:83 ProgressFrm.dfm:43 ProgressFrm2.dfm:34
+#: ResizeOptionFrm.dfm:96 RotationOptionFrm.dfm:78 SusiePluginOptionFrm.dfm:95
+#: SystemOptionFrm.dfm:122 ToneCurveOptionFrm.dfm:92 TrimmingOptionFrm.dfm:66
+#: UnSharpMaskOptionFrm.dfm:123
+msgid "Cancel"
+msgstr ""
+
+#. AddBlankForm..GroupBox3..Caption
+#: AddBlankFrm.dfm:186
+msgid "Border"
+msgstr "フレーム"
+
+#. AddBlankForm..GroupBox3..Label5..Caption
+#. AddBlankForm..GroupBox3..Label6..Caption
+#. AddBlankForm..GroupBox3..Label7..Caption
+#. CombineOptionForm..Label3..Caption
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#. Programmer's name for it: RESIZE_PARAM_WIDTH
+#: AddBlankFrm.dfm:194 CombineOptionFrm.dfm:41 MainFrm.dfm:304
+#: ResourceText.pas:54
+msgid "Width"
+msgstr "幅"
+
+#. AddBlankForm..GroupBox3..CheckBox2..Caption
+#: AddBlankFrm.dfm:281
+msgid "1st"
+msgstr ""
+
+#. AddBlankForm..GroupBox3..CheckBox3..Caption
+#: AddBlankFrm.dfm:291
+msgid "2nd"
+msgstr ""
+
+#. AddBlankForm..GroupBox3..CheckBox4..Caption
+#: AddBlankFrm.dfm:301
+msgid "3rd"
+msgstr ""
+
+#. AddBlankForm..GroupBox3..CheckBox1..Caption
+#. AddTextForm..CheckBox1..Caption
+#: AddBlankFrm.dfm:310
+msgid "DropShadow"
+msgstr "ドロップシャドウ"
+
+#. AddBlankForm..GroupBox3..Panel7..Label10..Caption
+#. AddTextForm..Panel3..Label13..Caption
+#. AddTextForm..Panel4..Label17..Caption
+#. ResizeOptionForm..Panel1..Label5..Caption
+#. ResizeOptionForm..Panel2..Label6..Caption
+#. UnSharpMaskOptionForm..Label3..Caption
+#: AddBlankFrm.dfm:343 ResizeOptionFrm.dfm:114 ResizeOptionFrm.dfm:150
+#: UnSharpMaskOptionFrm.dfm:42
+msgid "Radius"
+msgstr "半径"
+
+#. AddBlankForm..GroupBox3..Panel7..Label12..Caption
+#. AddTextForm..Label2..Caption
+#. AddTextForm..Panel3..Label14..Caption
+#. CompositeOptionForm..Label2..Caption
+#: AddBlankFrm.dfm:351 CompositeOptionFrm.dfm:35
+msgid "Offset X"
+msgstr "オフセットX"
+
+#. AddBlankForm..GroupBox3..Panel7..Label11..Caption
+#. AddTextForm..Panel3..Label18..Caption
+#. AddTextForm..Panel4..Label20..Caption
+#. DecreaseColorForm..Panel1..Label5..Caption
+#: AddBlankFrm.dfm:359 DecreaseColorFrm.dfm:131
+msgid "Strength"
+msgstr "強さ"
+
+#. AddBlankForm..GroupBox3..Panel7..Label13..Caption
+#. AddTextForm..Label3..Caption
+#. AddTextForm..Panel3..Label19..Caption
+#. CompositeOptionForm..Label3..Caption
+#: AddBlankFrm.dfm:367 CompositeOptionFrm.dfm:43
+msgid "Offset Y"
+msgstr "オフセットY"
+
+#. AddBlankForm..CheckBox5..Caption
+#. ColorCorrectionForm..CheckBox1..Caption
+#. MainForm..ActionList1..Preview..Hint
+#. ToneCurveOptionForm..CheckBox1..Caption
+#. TrimmingOptionForm..CheckBox1..Caption
+#. UnSharpMaskOptionForm..CheckBox2..Caption
+#: AddBlankFrm.dfm:433 ToneCurveOptionFrm.dfm:110 TrimmingOptionFrm.dfm:108
+#: UnSharpMaskOptionFrm.dfm:102
+msgid "Preview"
+msgstr "プレビュー"
+
+#. AddTextForm..Caption
+#. Programmer's name for it: FILTER_NAME_ADDTEXT
+#: AddTextFrm.dfm:5
+msgid "AddText"
+msgstr "文字入れ"
+
+#. AddTextForm..Label1..Caption
+#. CompositeOptionForm..Label1..Caption
+#: AddTextFrm.dfm:27
+msgid "Position"
+msgstr "位置"
+
+#. AddTextForm..Label4..Caption
+#. SystemOptionForm..Label4..Caption
+#: AddTextFrm.dfm:43
+msgid "Font"
+msgstr "フォント"
+
+#. AddTextForm..Label7..Caption
+#: AddTextFrm.dfm:69
+msgid "FontColor"
+msgstr "文字色"
+
+#. AddTextForm..Label8..Caption
+#. CombineOptionForm..Label8..Caption
+#. PictureFormatForm..Label7..Caption
+#. SystemOptionForm..Label3..Caption
+#: AddTextFrm.dfm:77 SystemOptionFrm.dfm:32
+msgid "BackColor"
+msgstr "背景色"
+
+#. AddTextForm..Label9..Caption
+#: AddTextFrm.dfm:93
+msgid "Margin X"
+msgstr "マージンX"
+
+#. AddTextForm..Label10..Caption
+#: AddTextFrm.dfm:101
+msgid "Line Space"
+msgstr "行間"
+
+#. AddTextForm..Label21..Caption
+#: AddTextFrm.dfm:117
+msgid "Margin Y"
+msgstr "マージンY"
+
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#: AddTextFrm.dfm:142
+msgid "Left"
+msgstr "左"
+
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#: AddTextFrm.dfm:144
+msgid "Top"
+msgstr "上"
+
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#: AddTextFrm.dfm:145
+msgid "Center"
+msgstr "中"
+
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#: AddTextFrm.dfm:146
+msgid "Bottom"
+msgstr "下"
+
+#. AddTextForm..ComboBox1....Items.Strings
+#. CompositeOptionForm..ComboBox1....Items.Strings
+#: AddTextFrm.dfm:148
+msgid "Right"
+msgstr "右"
+
+#. AddTextForm..CheckBox2..Caption
+#: AddTextFrm.dfm:191
+msgid "Glow"
+msgstr "グロー"
+
+#. BitmapOptionForm..Caption
+#. MainForm..ActionList1..SetBMPOption..Hint
+#: BitmapOptionFrm.dfm:5
+msgid "BMP Settings"
+msgstr "BMP設定"
+
+#. BitmapOptionForm..Label2..Caption
+#: BitmapOptionFrm.dfm:25
+msgid "When 32bit bitmaps does not contain bitfield masks"
+msgstr "ビットフィールドを含まない32bitビットマップ"
+
+#. BitmapOptionForm..CheckBox1..Caption
+#: BitmapOptionFrm.dfm:32
+msgid "Output of bitmaps with alpha channel is enabled "
+msgstr "アルファチャンネル付きでの出力を許可する"
+
+#. BitmapOptionForm..Panel1..Label1..Caption
+#: BitmapOptionFrm.dfm:48
+msgid "Header"
+msgstr "ヘッダ"
+
+#. BitmapOptionForm..Panel1..ComboBox1..Text
+#. BitmapOptionForm..Panel1..ComboBox1....Items.Strings
+#: BitmapOptionFrm.dfm:58
+msgid "BITMAPINFOHEADER"
+msgstr ""
+
+#. BitmapOptionForm..Panel1..ComboBox1....Items.Strings
+#: BitmapOptionFrm.dfm:61
+msgid "BITMAPV4HEADER"
+msgstr ""
+
+#. BitmapOptionForm..CheckBox3..Caption
+#. PNGOptionForm..CheckBox10..Caption
+#: BitmapOptionFrm.dfm:90
+msgid "Output index color when only 256 or less colors is used"
+msgstr "256色以下ならインデックスカラー化する"
+
+#. BitmapOptionForm..ComboBox2..Text
+#. BitmapOptionForm..ComboBox2....Items.Strings
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#: BitmapOptionFrm.dfm:101
+msgid "Auto"
+msgstr "自動"
+
+#. BitmapOptionForm..ComboBox2....Items.Strings
+#: BitmapOptionFrm.dfm:104
+msgid "ARGB"
+msgstr ""
+
+#. BitmapOptionForm..ComboBox2....Items.Strings
+#: BitmapOptionFrm.dfm:105
+msgid "XRGB"
+msgstr ""
+
+#. ChangeOrderForm..Caption
+#: ChangeOrderFrm.dfm:5
+msgid "Filter Order"
+msgstr "フィルタ処理順"
+
+#. ColorCorrectionForm..Caption
+#: ColorCorrectionFrm.dfm:7
+msgid "Color Adjust"
+msgstr "色調補正"
+
+#. ColorCorrectionForm..Label1..Caption
+#: ColorCorrectionFrm.dfm:28
+msgid "Gamma(RGB)"
+msgstr "ガンマ(RGB)"
+
+#. ColorCorrectionForm..Label2..Caption
+#: ColorCorrectionFrm.dfm:36
+msgid "Gamma(Y)"
+msgstr "ガンマ(Y)"
+
+#. ColorCorrectionForm..Label3..Caption
+#: ColorCorrectionFrm.dfm:44
+msgid "Luma(Min)"
+msgstr "輝度(Min)"
+
+#. ColorCorrectionForm..Label4..Caption
+#: ColorCorrectionFrm.dfm:52
+msgid "Luma(Max)"
+msgstr "輝度(Max)"
+
+#. ColorCorrectionForm..Label5..Caption
+#: ColorCorrectionFrm.dfm:60
+msgid "Chroma"
+msgstr "彩度"
+
+#. ColorCorrectionForm..Label6..Caption
+#: ColorCorrectionFrm.dfm:68
+msgid "Hue"
+msgstr "色合い"
+
+#. ColorCorrectionForm..Label7..Caption
+#: ColorCorrectionFrm.dfm:76
+msgid "Contrast"
+msgstr "コントラスト"
+
+#. ColorCorrectionForm..Button3..Caption
+#. ToneCurveOptionForm..Button3..Caption
+#. ToneCurveOptionForm..Button4..Caption
+#. UnSharpMaskOptionForm..Button3..Caption
+#: ColorCorrectionFrm.dfm:173 ToneCurveOptionFrm.dfm:128
+#: UnSharpMaskOptionFrm.dfm:132
+msgid "Reset"
+msgstr "リセット"
+
+#. ColorCorrectionForm..CheckBox2..Caption
+#. HistogramForm..Caption
+#. ToneCurveOptionForm..RadioGroup1..Caption
+#. ToneCurveOptionForm..CheckBox2..Caption
+#. UnSharpMaskOptionForm..CheckBox4..Caption
+#: ColorCorrectionFrm.dfm:262 ToneCurveOptionFrm.dfm:167
+#: UnSharpMaskOptionFrm.dfm:193
+msgid "Histogram"
+msgstr "ヒストグラム"
+
+#. CombineOptionForm..Caption
+#: CombineOptionFrm.dfm:5
+msgid "Combine Settings"
+msgstr "画像連結の設定"
+
+#. CombineOptionForm..Label1..Caption
+#: CombineOptionFrm.dfm:33
+msgid "Priority"
+msgstr "優先方向"
+
+#. CombineOptionForm..Label4..Caption
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#. Programmer's name for it: RESIZE_PARAM_HEIGHT
+#: CombineOptionFrm.dfm:49
+msgid "Height"
+msgstr "高さ"
+
+#. CombineOptionForm..Label5..Caption
+#: CombineOptionFrm.dfm:57
+msgid "Columns"
+msgstr "列"
+
+#. CombineOptionForm..Label6..Caption
+#: CombineOptionFrm.dfm:65
+msgid "Rows"
+msgstr "行"
+
+#. CombineOptionForm..Label7..Caption
+#. CombineOptionForm..Label9..Caption
+#: CombineOptionFrm.dfm:73
+msgid "Space"
+msgstr "間隔"
+
+#. CombineOptionForm..ComboBox1..Text
+#. CombineOptionForm..ComboBox1....Items.Strings
+#: CombineOptionFrm.dfm:91
+msgid "Row"
+msgstr "横"
+
+#. CombineOptionForm..ComboBox1....Items.Strings
+#: CombineOptionFrm.dfm:94
+msgid "Column"
+msgstr "縦"
+
+#. CombineOptionForm..CheckBox1..Caption
+#: CombineOptionFrm.dfm:174
+msgid "Combine without space"
+msgstr "余白なし"
+
+#. CompositeOptionForm..Caption
+#. Programmer's name for it: FILTER_NAME_COMPOSITE
+#: CompositeOptionFrm.dfm:5
+msgid "Composite"
+msgstr "画像合成"
+
+#. CompositeOptionForm..RadioButton1..Caption
+#: CompositeOptionFrm.dfm:68
+msgid "Foreground Image"
+msgstr "前景画像"
+
+#. CompositeOptionForm..RadioButton2..Caption
+#: CompositeOptionFrm.dfm:77
+msgid "Background Image"
+msgstr "背景画像"
+
+#. CompositeOptionForm..Button1..Caption
+#. FolderOptionForm..Panel1..Button1..Caption
+#. FolderOptionForm..Button4..Caption
+#. PreviewOptionForm..Button1..Caption
+#. SusiePluginOptionForm..Button1..Caption
+#. SystemOptionForm..Panel3..Button3..Caption
+#: CompositeOptionFrm.dfm:94 PreviewOptionFrm.dfm:62
+#: SusiePluginOptionFrm.dfm:61 SystemOptionFrm.dfm:219
+msgid "..."
+msgstr ""
+
+#. CreateShortCutForm..Caption
+#: CreateShortCutFrm.dfm:5
+msgid "Create Shortcut"
+msgstr "ショートカットの作成"
+
+#. CreateShortCutForm..Label1..Caption
+#: CreateShortCutFrm.dfm:25
+msgid "Shortcut Name"
+msgstr "ショートカットの名前"
+
+#. CreateShortCutForm..RadioGroup1..Caption
+#: CreateShortCutFrm.dfm:39
+msgid "Creation Place"
+msgstr "作成場所"
+
+#. CreateShortCutForm..RadioGroup1....Items.Strings
+#: CreateShortCutFrm.dfm:41
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#. CreateShortCutForm..RadioGroup1....Items.Strings
+#: CreateShortCutFrm.dfm:42
+msgid "SendTo"
+msgstr "SendTo(送るメニュー)"
+
+#. CreateShortCutForm..CheckBox1..Caption
+#: CreateShortCutFrm.dfm:50
+msgid "Create new inifile from current settings"
+msgstr "現在の設定を保存して使用"
+
+#. CreateShortCutForm..CheckBox2..Caption
+#. MainForm..ToolBar2..Panel6..CheckBox1..Caption
+#: CreateShortCutFrm.dfm:59
+msgid "at once"
+msgstr "即時変換"
+
+#. DecreaseColorForm..Caption
+#: DecreaseColorFrm.dfm:5
+msgid "Decrease Color"
+msgstr "減色"
+
+#. DecreaseColorForm..Label2..Caption
+#: DecreaseColorFrm.dfm:26
+msgid "Colors"
+msgstr "色数"
+
+#. DecreaseColorForm..Label4..Caption
+#: DecreaseColorFrm.dfm:34
+msgid "Dithering"
+msgstr "ディザ"
+
+#. DecreaseColorForm..RadioButton1..Caption
+#: DecreaseColorFrm.dfm:41
+msgid "FLAXC.exe"
+msgstr ""
+
+#. DecreaseColorForm..RadioButton2..Caption
+#: DecreaseColorFrm.dfm:50
+msgid "iZYINS.exe"
+msgstr ""
+
+#. DecreaseColorForm..RadioButton3..Caption
+#: DecreaseColorFrm.dfm:106
+msgid "pngnqi.exe"
+msgstr ""
+
+#. DecreaseColorForm..Panel1..Label3..Caption
+#. PNGOptionForm..Panel3..Label2..Caption
+#: DecreaseColorFrm.dfm:123
+msgid "Transparent"
+msgstr "透過色"
+
+#. DecreaseColorForm..Panel1..ComboBox1....Items.Strings
+#. JPEGOptionForm..ComboBox2..Text
+#. JPEGOptionForm..ComboBox2....Items.Strings
+#. JPEGTranOptionForm..cbRotation..Text
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#. PNGOptionForm..GroupBox1..CheckBox1..Caption
+#. PNGOptionForm..Panel3..ComboBox1....Items.Strings
+#. Programmer's name for it: DITHER_TYPE_NONE
+#: DecreaseColorFrm.dfm:143 JPEGTranOptionFrm.dfm:67 JPEGTranOptionFrm.dfm:69
+#: PNGOptionFrm.dfm:39 PNGOptionFrm.dfm:178 ResourceText.pas:45
+msgid "None"
+msgstr "なし"
+
+#. DecreaseColorForm..Panel2..Label1..Caption
+#: DecreaseColorFrm.dfm:179
+msgid "Other Options"
+msgstr "その他のオプション"
+
+#. DecreaseColorForm..Panel3..Label6..Caption
+#. JPEGOptionForm..Label1..Caption
+#: DecreaseColorFrm.dfm:202
+msgid "Quality"
+msgstr "品質"
+
+#. ErrorLogForm..Caption
+#: ErrorLogFrm.dfm:5
+msgid "ErrorLog"
+msgstr "エラーログ"
+
+#. ErrorLogForm..Button1..Caption
+#: ErrorLogFrm.dfm:37
+msgid "Close"
+msgstr ""
+
+#. FolderOptionForm..Caption
+#. MainForm..ActionList1..SetOutPutFolder..Hint
+#: FolderOptionFrm.dfm:5
+msgid "Output Folder Settings"
+msgstr "出力フォルダ設定"
+
+#. FolderOptionForm..Label1..Caption
+#: FolderOptionFrm.dfm:25
+msgid "Temporary folder of clipboard image"
+msgstr "クリップボードから生成した画像の一時保存先"
+
+#. FolderOptionForm..CheckBox1..Caption
+#: FolderOptionFrm.dfm:32
+msgid "Output to same folder as source files"
+msgstr "元画像と同じフォルダに出力"
+
+#. FolderOptionForm..Panel1..CheckBox2..Caption
+#: FolderOptionFrm.dfm:64
+msgid "Open output folder after conversion "
+msgstr "出力先のフォルダを開く"
+
+#. GrayscaleForm..Caption
+#. JPEGTranOptionForm..chbGrayscale..Caption
+#: GrayscaleFrm.dfm:5
+msgid "Convert to grayscale"
+msgstr "グレースケール化"
+
+#. GrayscaleForm..ComboBox1..Text
+#. GrayscaleForm..ComboBox1....Items.Strings
+#: GrayscaleFrm.dfm:29
+msgid "ITU-R BT.601"
+msgstr ""
+
+#. GrayscaleForm..ComboBox1....Items.Strings
+#: GrayscaleFrm.dfm:33
+msgid "ITU-R BT.709"
+msgstr ""
+
+#. GrayscaleForm..ComboBox1....Items.Strings
+#: GrayscaleFrm.dfm:34
+msgid "Custom"
+msgstr "カスタム"
+
+#. GrayscaleForm..Panel1..Label1..Caption
+#: GrayscaleFrm.dfm:69
+msgid "Red"
+msgstr ""
+
+#. GrayscaleForm..Panel1..Label2..Caption
+#: GrayscaleFrm.dfm:77
+msgid "Green"
+msgstr ""
+
+#. GrayscaleForm..Panel1..Label3..Caption
+#: GrayscaleFrm.dfm:85
+msgid "Blue"
+msgstr ""
+
+#. HistogramForm..Label1..Caption
+#. ToneCurveOptionForm..Label1..Caption
+#: HistogramFrm.dfm:28
+msgid "Channel"
+msgstr "チャンネル"
+
+#. HistogramForm..ComboBox1..Text
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1..Text
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:52 ToneCurveOptionFrm.dfm:68
+msgid "RGB"
+msgstr ""
+
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:56
+msgid "R"
+msgstr ""
+
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:57
+msgid "G"
+msgstr ""
+
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:58
+msgid "B"
+msgstr ""
+
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:59
+msgid "Y"
+msgstr ""
+
+#. HistogramForm..ComboBox1....Items.Strings
+#. ToneCurveOptionForm..ComboBox1....Items.Strings
+#: HistogramFrm.dfm:60
+msgid "CbCr"
+msgstr ""
+
+#. HistogramForm..RadioButton1..Caption
+#. ToneCurveOptionForm..RadioGroup1....Items.Strings
+#: HistogramFrm.dfm:67
+msgid "Linear"
+msgstr "線形"
+
+#. HistogramForm..RadioButton2..Caption
+#. ToneCurveOptionForm..RadioGroup1....Items.Strings
+#: HistogramFrm.dfm:78
+msgid "Log"
+msgstr "対数"
+
+#. JPEGOptionForm..Caption
+#. MainForm..ActionList1..SetJPEGOption..Hint
+#: JPEGOptionFrm.dfm:5
+msgid "JPEG Settings"
+msgstr "JPEG設定"
+
+#. JPEGOptionForm..Label2..Caption
+#: JPEGOptionFrm.dfm:34
+msgid "Smoothing"
+msgstr "スムージング"
+
+#. JPEGOptionForm..Label3..Caption
+#. JPEGOptionForm..Label9..Caption
+#: JPEGOptionFrm.dfm:42
+msgid "Subsampling"
+msgstr "サブサンプリング"
+
+#. JPEGOptionForm..Label4..Caption
+#: JPEGOptionFrm.dfm:49
+msgid "Downscaling during decording"
+msgstr "JPEGの縮小展開"
+
+#. JPEGOptionForm..Label7..Caption
+#: JPEGOptionFrm.dfm:57
+msgid "DCT Method"
+msgstr "DCT演算方法"
+
+#. JPEGOptionForm..Label8..Caption
+#: JPEGOptionFrm.dfm:64
+msgid "Min quality"
+msgstr "品質下限"
+
+#. JPEGOptionForm..Label10..Caption
+#: JPEGOptionFrm.dfm:79
+msgid "KB"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox1..Text
+#. JPEGOptionForm..ComboBox1....Items.Strings
+#. JPEGOptionForm..ComboBox4..Text
+#. JPEGOptionForm..ComboBox4....Items.Strings
+#: JPEGOptionFrm.dfm:89 JPEGOptionFrm.dfm:242
+msgid "4:2:0"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox1....Items.Strings
+#. JPEGOptionForm..ComboBox4....Items.Strings
+#: JPEGOptionFrm.dfm:92
+msgid "4:2:2"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox1....Items.Strings
+#. JPEGOptionForm..ComboBox4....Items.Strings
+#: JPEGOptionFrm.dfm:93
+msgid "4:4:4"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox1....Items.Strings
+#. JPEGOptionForm..ComboBox4....Items.Strings
+#: JPEGOptionFrm.dfm:94
+msgid "4:1:1"
+msgstr ""
+
+#. JPEGOptionForm..CheckBox1..Caption
+#. MetadataOptionForm..CheckBox1..Caption
+#: JPEGOptionFrm.dfm:122
+msgid "Keep Exif data"
+msgstr "Exif情報を保持する"
+
+#. JPEGOptionForm..ComboBox2....Items.Strings
+#: JPEGOptionFrm.dfm:138
+msgid "1/2"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox2....Items.Strings
+#: JPEGOptionFrm.dfm:139
+msgid "1/4"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox2....Items.Strings
+#: JPEGOptionFrm.dfm:140
+msgid "1/8"
+msgstr ""
+
+#. JPEGOptionForm..Panel1..Label5..Caption
+#: JPEGOptionFrm.dfm:154
+msgid "Minimum ratio of output image"
+msgstr "出力サイズに対する割合"
+
+#. JPEGOptionForm..Panel1..Label6..Caption
+#: JPEGOptionFrm.dfm:161
+msgid "%"
+msgstr ""
+
+#. JPEGOptionForm..ComboBox3..Text
+#. JPEGOptionForm..ComboBox3....Items.Strings
+#: JPEGOptionFrm.dfm:180
+msgid "Int"
+msgstr "高精度整数"
+
+#. JPEGOptionForm..ComboBox3....Items.Strings
+#: JPEGOptionFrm.dfm:183
+msgid "Float"
+msgstr "浮動少数"
+
+#. JPEGOptionForm..CheckBox2..Caption
+#. MetadataOptionForm..CheckBox2..Caption
+#: JPEGOptionFrm.dfm:190
+msgid "Update Exif dimensions"
+msgstr "Exif情報の画像サイズを更新する"
+
+#. JPEGOptionForm..CheckBox3..Caption
+#: JPEGOptionFrm.dfm:214
+msgid "Set max file size"
+msgstr "出力ファイルサイズを制限する"
+
+#. JPEGOptionForm..CheckBox4..Caption
+#. MetadataOptionForm..CheckBox9..Caption
+#: JPEGOptionFrm.dfm:252
+msgid "Update Exif thumbnail"
+msgstr "Exif情報のサムネイルを更新する"
+
+#. JPEGOptionForm..CheckBox5..Caption
+#: JPEGOptionFrm.dfm:260
+msgid "Always recompress"
+msgstr "常に再圧縮する"
+
+#. JPEGTranOptionForm..Caption
+#: JPEGTranOptionFrm.dfm:5
+msgid "JPEGTran Settings"
+msgstr "JPEGTran設定"
+
+#. JPEGTranOptionForm..Label1..Caption
+#: JPEGTranOptionFrm.dfm:25
+msgid "Transform"
+msgstr "回転・反転"
+
+#. JPEGTranOptionForm..chbOptimize..Caption
+#: JPEGTranOptionFrm.dfm:32
+msgid "Optimize"
+msgstr "最適化"
+
+#. JPEGTranOptionForm..chbProgressive..Caption
+#: JPEGTranOptionFrm.dfm:40
+msgid "Progressive JPEG"
+msgstr "プログレッシブJPEG"
+
+#. JPEGTranOptionForm..chbTrimming..Caption
+#. TrimmingOptionForm..Caption
+#. Programmer's name for it: FILTER_NAME_TRIMMING
+#: JPEGTranOptionFrm.dfm:56
+msgid "Trimming"
+msgstr "トリミング"
+
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#. RotationOptionForm..ComboBox1..Text
+#. RotationOptionForm..ComboBox1....Items.Strings
+#: JPEGTranOptionFrm.dfm:71 RotationOptionFrm.dfm:56
+msgid "Rotate 90"
+msgstr "90度"
+
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#. RotationOptionForm..ComboBox1....Items.Strings
+#: JPEGTranOptionFrm.dfm:72
+msgid "Rotate 180"
+msgstr "180度"
+
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#. RotationOptionForm..ComboBox1....Items.Strings
+#: JPEGTranOptionFrm.dfm:73
+msgid "Rotate 270"
+msgstr "270度"
+
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#: JPEGTranOptionFrm.dfm:74
+msgid "Flip horizontal"
+msgstr "左右反転"
+
+#. JPEGTranOptionForm..cbRotation....Items.Strings
+#: JPEGTranOptionFrm.dfm:75
+msgid "Flip vertical"
+msgstr "上下反転"
+
+#. JPEGTranOptionForm..chbRemoveExtraMarker..Caption
+#: JPEGTranOptionFrm.dfm:102
+msgid "Remove extra markers"
+msgstr "エクストラ・マーカー除去"
+
+#. MainForm..Caption
+#: MainFrm.dfm:4
+msgid "Ralpha Image Resizer"
+msgstr ""
+
+#. MainForm..Font.Name
+#: MainFrm.dfm:11
+msgid "MS UI Gothic"
+msgstr ""
+
+#. MainForm..ListView1......Caption
+#: MainFrm.dfm:29
+msgid "Name"
+msgstr "名前"
+
+#. MainForm..ListView1......Caption
+#. MainForm..ToolBar2..Panel2..Label3..Caption
+#: MainFrm.dfm:33
+msgid "Size"
+msgstr "大きさ"
+
+#. MainForm..ListView1......Caption
+#: MainFrm.dfm:38
+msgid "File Size"
+msgstr "サイズ"
+
+#. MainForm..ListView1......Caption
+#: MainFrm.dfm:42
+msgid "Type"
+msgstr "種類"
+
+#. MainForm..ListView1......Caption
+#: MainFrm.dfm:46
+msgid "Last Update"
+msgstr "更新日時"
+
+#. MainForm..ListView1......Caption
+#: MainFrm.dfm:50
+msgid "DateTimeOriginal"
+msgstr "写真の撮影日"
+
+#. MainForm..ListView1......Caption
+#. PreviewOptionForm..Label1..Caption
+#: MainFrm.dfm:54
+msgid "Path"
+msgstr "パス"
+
+#. MainForm..ToolBar1..Caption
+#: MainFrm.dfm:100
+msgid "ToolBar1"
+msgstr ""
+
+#. MainForm..ToolBar1..ToolButton4..Caption
+#: MainFrm.dfm:131
+msgid "ToolButton4"
+msgstr ""
+
+#. MainForm..ToolBar1..ToolButton17..Caption
+#: MainFrm.dfm:153
+msgid "ToolButton17"
+msgstr ""
+
+#. MainForm..ToolBar1..ToolButton7..Caption
+#: MainFrm.dfm:175
+msgid "ToolButton7"
+msgstr ""
+
+#. MainForm..ToolBar1..ToolButton9..Caption
+#: MainFrm.dfm:197
+msgid "ToolButton9"
+msgstr ""
+
+#. MainForm..ToolBar1..Panel1..Label1..Caption
+#: MainFrm.dfm:215
+msgid "Rename Rules"
+msgstr "ファイル名生成規則"
+
+#. MainForm..ToolBar1..Panel1..Label2..Caption
+#: MainFrm.dfm:223
+msgid "Mode"
+msgstr "モード"
+
+#. MainForm..ToolBar1..Panel1..ComboBox2..Text
+#. MainForm..ToolBar1..Panel1..ComboBox2....Items.Strings
+#: MainFrm.dfm:253
+msgid "Normal"
+msgstr ""
+
+#. MainForm..ToolBar1..Panel1..ComboBox2....Items.Strings
+#. Programmer's name for it: FILTER_NAME_JPEGTRAN
+#: MainFrm.dfm:257
+msgid "JPEGTran"
+msgstr ""
+
+#. MainForm..ToolBar1..Panel1..ComboBox2....Items.Strings
+#: MainFrm.dfm:258
+msgid "Combine"
+msgstr "画像連結"
+
+#. MainForm..ToolBar1..Panel1..ComboBox2....Items.Strings
+#: MainFrm.dfm:259
+msgid "Rename Only"
+msgstr "リネームのみ"
+
+#. MainForm..ToolBar2..Caption
+#: MainFrm.dfm:270
+msgid "ToolBar2"
+msgstr ""
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:301
+msgid "Percent"
+msgstr "比率(%)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:302
+msgid "Wide Side"
+msgstr "長辺基準(px)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:303
+msgid "Narrow Side"
+msgstr "短辺基準(px)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:306
+msgid "W x N(%)"
+msgstr "長辺 x 短辺(%)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:307
+msgid "W x H(%)"
+msgstr "幅  x 高さ(%)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:308
+msgid "W x N(px)"
+msgstr "長辺 x 短辺(px)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:309
+msgid "W x H(px)"
+msgstr "幅 x 高さ(px)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:310
+msgid "History"
+msgstr "履歴"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:311
+msgid "Inscribed"
+msgstr "内接(px)"
+
+#. MainForm..ToolBar2..Panel2..cbxResizeRule....Items.Strings
+#: MainFrm.dfm:312
+msgid "Circumscribed"
+msgstr "外接(px)"
+
+#. MainForm..ToolBar2..Panel2..Panel3..Label5..Caption
+#. MainForm..ToolBar2..Panel2..Panel4..Label7..Caption
+#: MainFrm.dfm:333
+msgid "px"
+msgstr ""
+
+#. MainForm..ToolBar2..ToolButton13..Caption
+#: MainFrm.dfm:394
+msgid "ToolButton13"
+msgstr ""
+
+#. MainForm..ToolBar2..ToolButton12..Caption
+#: MainFrm.dfm:415
+msgid "ToolButton12"
+msgstr ""
+
+#. MainForm..MainMenu1..File1..Caption
+#: MainFrm.dfm:460
+msgid "File(&F)"
+msgstr "ファイル(&F)"
+
+#. MainForm..MainMenu1..File1..N15..Caption
+#. MainForm..MainMenu1..File1..N1..Caption
+#. MainForm..MainMenu1..Edit1..N7..Caption
+#. MainForm..MainMenu1..O1..N18..Caption
+#. MainForm..MainMenu1..O1..N14..Caption
+#. MainForm..MainMenu1..O1..N5..Caption
+#. MainForm..MainMenu1..O1..N4..Caption
+#. MainForm..MainMenu1..O1..N10..Caption
+#. MainForm..MainMenu1..Help1..N11..Caption
+#. MainForm..PopupMenu1..N8..Caption
+#. MainForm..PopupMenu1..N12..Caption
+#. MainForm..PopupMenu1..N9..Caption
+#. PreviewForm..PopupMenu1..N1..Caption
+#. PreviewForm..PopupMenu1..N2..Caption
+#: MainFrm.dfm:468 MainFrm.dfm:554 MainFrm.dfm:565 MainFrm.dfm:572
+#: MainFrm.dfm:583 MainFrm.dfm:604 MainFrm.dfm:1235 MainFrm.dfm:1256
+#: MainFrm.dfm:1265 PreviewFrm.dfm:137 PreviewFrm.dfm:146
+msgid "-"
+msgstr ""
+
+#. MainForm..MainMenu1..Edit1..Caption
+#: MainFrm.dfm:484
+msgid "List(&L)"
+msgstr "リスト(&L)"
+
+#. MainForm..MainMenu1..Show1..Caption
+#: MainFrm.dfm:514
+msgid "View(&V)"
+msgstr "表示(&V)"
+
+#. MainForm..MainMenu1..Show1..IgnoreEmbeddedThumbnail..Caption
+#: MainFrm.dfm:521
+msgid "Ignore Embedded Thumbnails(&I)"
+msgstr "埋め込みサムネイルを無視する(&I)"
+
+#. MainForm..MainMenu1..O1..Caption
+#: MainFrm.dfm:525
+msgid "Settings(&S)"
+msgstr "設定(&S)"
+
+#. MainForm..MainMenu1..O1..JPEGTranOption..Caption
+#: MainFrm.dfm:557
+msgid "JPEGTran Settings(&L)..."
+msgstr "JPEGロスレス変換設定(&L)..."
+
+#. MainForm..MainMenu1..O1..Combine..Caption
+#: MainFrm.dfm:561
+msgid "Combine Settings(&O)..."
+msgstr "画像連結の設定(&O)..."
+
+#. MainForm..MainMenu1..O1..SystemOptionSetting..Caption
+#: MainFrm.dfm:568
+msgid "System Settings(&Z)..."
+msgstr "システム設定(&Z)..."
+
+#. MainForm..MainMenu1..O1..CreateShortCut..Caption
+#: MainFrm.dfm:575
+msgid "Create Shortcut(&S)..."
+msgstr "ショートカットの作成(&S)..."
+
+#. MainForm..MainMenu1..O1..DeleteShortCut..Caption
+#: MainFrm.dfm:579
+msgid "Delete Shortcut(&D)"
+msgstr "ショートカットの削除(&D)"
+
+#. MainForm..MainMenu1..C1..Caption
+#: MainFrm.dfm:590
+msgid "Convert(&C)"
+msgstr "変換(&C)"
+
+#. MainForm..MainMenu1..LanguageL1..Caption
+#: MainFrm.dfm:596
+msgid "Language(&A)"
+msgstr "言語(&A)"
+
+#. MainForm..MainMenu1..Help1..Caption
+#: MainFrm.dfm:599
+msgid "Help(&H)"
+msgstr "ヘルプ(&H)"
+
+#. MainForm..ActionList1..ConvertRun..Category
+#: MainFrm.dfm:616
+msgid "Convert"
+msgstr ""
+
+#. MainForm..ActionList1..ConvertRun..Caption
+#: MainFrm.dfm:617
+msgid "Run(&R)"
+msgstr "実行(&R)"
+
+#. MainForm..ActionList1..ConvertRun..Hint
+#: MainFrm.dfm:619
+msgid "Run"
+msgstr "実行"
+
+#. MainForm..ActionList1..ListViewClear..Category
+#. MainForm..ActionList1..ListViewDelete..Category
+#. MainForm..ActionList1..ListViewCheck..Category
+#. MainForm..ActionList1..ListViewCheckReset..Category
+#. MainForm..ActionList1..ListViewCheckReverse..Category
+#. MainForm..ActionList1..ListViewCheckAlt..Category
+#. MainForm..ActionList1..ListViewSelectAll..Category
+#. MainForm..ActionList1..ListViewReverseAll..Category
+#. MainForm..ActionList1..ListViewPaste..Category
+#: MainFrm.dfm:625 MainFrm.dfm:770 MainFrm.dfm:786 MainFrm.dfm:792
+#: MainFrm.dfm:799 MainFrm.dfm:806
+msgid "Edit"
+msgstr ""
+
+#. MainForm..ActionList1..ListViewClear..Caption
+#: MainFrm.dfm:626
+msgid "Clear File(&C)"
+msgstr "リストをクリア"
+
+#. MainForm..ActionList1..ListViewClear..Hint
+#: MainFrm.dfm:628
+msgid "Clear File"
+msgstr "リストをクリア"
+
+#. MainForm..ActionList1..ListViewDelete..Caption
+#: MainFrm.dfm:635
+msgid "Remove File(&D)"
+msgstr "リストから削除(&D)"
+
+#. MainForm..ActionList1..ListViewDelete..Hint
+#: MainFrm.dfm:637
+msgid "Remove File"
+msgstr "リストから削除"
+
+#. MainForm..ActionList1..SetOutPutFolder..Category
+#. MainForm..ActionList1..SetJPEGOption..Category
+#. MainForm..ActionList1..SetPNGOption..Category
+#. MainForm..ActionList1..SetPictureFormat..Category
+#. MainForm..ActionList1..SetResizeOption..Category
+#. MainForm..ActionList1..SetBMPOption..Category
+#. MainForm..ActionList1..SetPreviewOption..Category
+#. MainForm..ActionList1..SetSPIOption..Category
+#. MainForm..ActionList1..SetMetaDataOption..Category
+#. Programmer's name for it: HINT_SETTINGSBUTTON
+#: MainFrm.dfm:642 MainFrm.dfm:670 MainFrm.dfm:705 MainFrm.dfm:740
+#: MainFrm.dfm:776 MainFrm.dfm:781 ResourceText.pas:59
+msgid "Settings"
+msgstr "設定"
+
+#. MainForm..ActionList1..SetOutPutFolder..Caption
+#: MainFrm.dfm:643
+msgid "Output Folder Settings(&F)..."
+msgstr "出力フォルダ設定(&F)..."
+
+#. MainForm..ActionList1..SetJPEGOption..Caption
+#: MainFrm.dfm:650
+msgid "JPEG Settings(&J)..."
+msgstr "JPEG設定(&J)..."
+
+#. MainForm..ActionList1..SetPNGOption..Caption
+#: MainFrm.dfm:657
+msgid "PNG Settings(&P)..."
+msgstr "PNG設定(&P)..."
+
+#. MainForm..ActionList1..SetPNGOption..Hint
+#. PNGOptionForm..Caption
+#: MainFrm.dfm:658
+msgid "PNG Settings"
+msgstr "PNG設定"
+
+#. MainForm..ActionList1..SetPictureFormat..Caption
+#: MainFrm.dfm:664
+msgid "Format Conversion Settings(&C)..."
+msgstr "フォーマット変換設定(&C)..."
+
+#. MainForm..ActionList1..SetPictureFormat..Hint
+#. PictureFormatForm..Caption
+#: MainFrm.dfm:665
+msgid "Format Conversion Settings"
+msgstr "フォーマット変換設定"
+
+#. MainForm..ActionList1..SetResizeOption..Caption
+#: MainFrm.dfm:671
+msgid "Resize Settings(&R)..."
+msgstr ""
+
+#. MainForm..ActionList1..SetResizeOption..Hint
+#: MainFrm.dfm:672
+msgid "Resize Settings"
+msgstr "リサイズ設定"
+
+#. MainForm..ActionList1..FileExit1..Category
+#. MainForm..ActionList1..FileAdd..Category
+#. MainForm..ActionList1..FileAddFolder..Category
+#. MainForm..ActionList1..FileOpenIni..Category
+#. MainForm..ActionList1..FileSaveIni..Category
+#: MainFrm.dfm:677 MainFrm.dfm:757
+msgid "File"
+msgstr ""
+
+#. MainForm..ActionList1..FileExit1..Caption
+#: MainFrm.dfm:678
+msgid "Exit(&X)"
+msgstr "終了(&X)"
+
+#. MainForm..ActionList1..FileExit1..Hint
+#: MainFrm.dfm:679
+msgid "Exit"
+msgstr "終了"
+
+#. MainForm..ActionList1..FileAdd..Caption
+#: MainFrm.dfm:684
+msgid "Add Files(&A)..."
+msgstr "ファイルをリストに追加(A)..."
+
+#. MainForm..ActionList1..FileAdd..Hint
+#: MainFrm.dfm:685
+msgid "Add Files"
+msgstr "ファイルをリストに追加"
+
+#. MainForm..ActionList1..FileAddFolder..Caption
+#: MainFrm.dfm:691
+msgid "Add Folder(&F)..."
+msgstr "フォルダごとリストに追加(&F)..."
+
+#. MainForm..ActionList1..FileAddFolder..Hint
+#: MainFrm.dfm:692
+msgid "Add Folder"
+msgstr "フォルダごとリストに追加"
+
+#. MainForm..ActionList1..Preview..Category
+#. MainForm..ActionList1..ShowThumbnail..Category
+#. MainForm..ActionList1..Preview2..Category
+#: MainFrm.dfm:697
+msgid "View"
+msgstr ""
+
+#. MainForm..ActionList1..Preview..Caption
+#: MainFrm.dfm:698
+msgid "Preview Image(&P)"
+msgstr "プレビュー(&P)"
+
+#. MainForm..ActionList1..SetBMPOption..Caption
+#: MainFrm.dfm:706
+msgid "BMP Settings(&B)..."
+msgstr "BMP設定(&B)..."
+
+#. MainForm..ActionList1..ShowThumbnail..Caption
+#: MainFrm.dfm:713
+msgid "Thumbnail(&T)"
+msgstr "サムネイル(&T)"
+
+#. MainForm..ActionList1..ListViewCheck..Caption
+#: MainFrm.dfm:718
+msgid "Check(&S)"
+msgstr "チェック(&S)"
+
+#. MainForm..ActionList1..ListViewCheckReset..Caption
+#: MainFrm.dfm:724
+msgid "Uncheck(&U)"
+msgstr "チェック解除(&U)"
+
+#. MainForm..ActionList1..HelpShow..Category
+#. MainForm..ActionList1..HelpAbout..Category
+#: MainFrm.dfm:729
+msgid "Help"
+msgstr ""
+
+#. MainForm..ActionList1..HelpShow..Caption
+#: MainFrm.dfm:730
+msgid "Help(&H)..."
+msgstr "ヘルプ(&H)..."
+
+#. MainForm..ActionList1..HelpAbout..Caption
+#: MainFrm.dfm:736
+msgid "About(&A)..."
+msgstr "バージョン情報(&A)..."
+
+#. MainForm..ActionList1..SetPreviewOption..Caption
+#: MainFrm.dfm:741
+msgid "External Viewer Settings(&V)..."
+msgstr "外部ビューア設定(&V)..."
+
+#. MainForm..ActionList1..EffectPermute..Category
+#: MainFrm.dfm:745
+msgid "Effect"
+msgstr ""
+
+#. MainForm..ActionList1..EffectPermute..Caption
+#: MainFrm.dfm:746
+msgid "Filter Order(&R)..."
+msgstr "フィルタの処理順(&R)..."
+
+#. MainForm..ActionList1..FileOpenIni..Caption
+#: MainFrm.dfm:751
+msgid "Load Profile(&O)..."
+msgstr "設定の読み込み(&O)..."
+
+#. MainForm..ActionList1..FileOpenIni..Hint
+#: MainFrm.dfm:752
+msgid "Load Profile"
+msgstr "設定の読み込み"
+
+#. MainForm..ActionList1..FileSaveIni..Caption
+#: MainFrm.dfm:758
+msgid "Save Profile(&S)..."
+msgstr "設定の保存(&S)..."
+
+#. MainForm..ActionList1..FileSaveIni..Hint
+#: MainFrm.dfm:759
+msgid "Save Profile"
+msgstr "設定の保存"
+
+#. MainForm..ActionList1..Preview2..Caption
+#: MainFrm.dfm:765
+msgid "Preview Image In New Window(&N)"
+msgstr "別窓でプレビュー(&N)"
+
+#. MainForm..ActionList1..ListViewCheckReverse..Caption
+#: MainFrm.dfm:771
+msgid "Reverse(&E)"
+msgstr "チェック反転(&E)"
+
+#. MainForm..ActionList1..SetSPIOption..Caption
+#: MainFrm.dfm:777
+msgid "Susie Plug-in Settings(&I)..."
+msgstr "Susie Plug-in設定(&I)..."
+
+#. MainForm..ActionList1..SetMetaDataOption..Caption
+#: MainFrm.dfm:782
+msgid "Metadata Settings(&E)..."
+msgstr "メタデータ設定(&E)..."
+
+#. MainForm..ActionList1..ListViewCheckAlt..Caption
+#: MainFrm.dfm:787
+msgid "Alternately(&A)"
+msgstr "1つおきにチェック(&A)"
+
+#. MainForm..ActionList1..ListViewSelectAll..Caption
+#: MainFrm.dfm:793
+msgid "Select All(&L)"
+msgstr "すべて選択(&L)"
+
+#. MainForm..ActionList1..ListViewReverseAll..Caption
+#: MainFrm.dfm:800
+msgid "Reverse All(&R)"
+msgstr "すべて反転(&R)"
+
+#. MainForm..ActionList1..ListViewPaste..Caption
+#: MainFrm.dfm:807
+msgid "Paste"
+msgstr "貼り付け(&V)"
+
+#. MainForm..OpenDialog1..Title
+#: MainFrm.dfm:1221
+msgid "Add file"
+msgstr "ファイルをリストに追加"
+
+#. MainForm..OpenDialog2..DefaultExt
+#. MainForm..SaveDialog1..DefaultExt
+#: MainFrm.dfm:1272
+msgid "ini"
+msgstr ""
+
+#. MainForm..OpenDialog2..Filter
+#. MainForm..SaveDialog1..Filter
+#: MainFrm.dfm:1273
+msgid "inifile(*.ini)|*.ini"
+msgstr ""
+
+#. MainForm..OpenDialog2..Title
+#: MainFrm.dfm:1274
+msgid "Load inifile"
+msgstr "設定の読み込み"
+
+#. MainForm..SaveDialog1..Title
+#: MainFrm.dfm:1281
+msgid "Save inifile"
+msgstr "設定の保存"
+
+#. MetadataOptionForm..Caption
+#: MetadataOptionFrm.dfm:5
+msgid "Metadata Settings"
+msgstr "メタデータ設定"
+
+#. MetadataOptionForm..Label1..Caption
+#: MetadataOptionFrm.dfm:25
+msgid "Resolution"
+msgstr "解像度"
+
+#. MetadataOptionForm..CheckBox3..Caption
+#: MetadataOptionFrm.dfm:49
+msgid "Keep ICCProfile"
+msgstr "ICCプロファイルを保持する"
+
+#. MetadataOptionForm..CheckBox4..Caption
+#: MetadataOptionFrm.dfm:57
+msgid "Keep creation time"
+msgstr "作成日時をコピーする"
+
+#. MetadataOptionForm..CheckBox5..Caption
+#: MetadataOptionFrm.dfm:65
+msgid "Keep last write time"
+msgstr "更新日時をコピーする"
+
+#. MetadataOptionForm..CheckBox6..Caption
+#: MetadataOptionFrm.dfm:73
+msgid "Keep resolution"
+msgstr "解像度をコピーする"
+
+#. MetadataOptionForm..CheckBox7..Caption
+#: MetadataOptionFrm.dfm:90
+msgid "PNG save resolution"
+msgstr "PNGファイルに解像度を記録する"
+
+#. MetadataOptionForm..CheckBox8..Caption
+#: MetadataOptionFrm.dfm:119
+msgid "Update Exif resolution"
+msgstr "Exif情報の解像度を更新する"
+
+#. PictureFormatForm..Label1..Caption
+#. PictureFormatForm..ComboBox1....Items.Strings
+#: PictureFormatFrm.dfm:25
+msgid "Bitmap Image"
+msgstr "ビットマップ イメージ"
+
+#. PictureFormatForm..Label2..Caption
+#. PictureFormatForm..ComboBox1....Items.Strings
+#: PictureFormatFrm.dfm:32
+msgid "JPEG Image"
+msgstr "JPEG イメージ"
+
+#. PictureFormatForm..Label3..Caption
+#. PictureFormatForm..ComboBox1....Items.Strings
+#: PictureFormatFrm.dfm:39
+msgid "PNG Image"
+msgstr "PNG イメージ"
+
+#. PictureFormatForm..Label4..Caption
+#. PictureFormatForm..Label5..Caption
+#. PictureFormatForm..Label6..Caption
+#. PictureFormatForm..Label9..Caption
+#. PictureFormatForm..Label11..Caption
+#: PictureFormatFrm.dfm:46 PictureFormatFrm.dfm:81 PictureFormatFrm.dfm:95
+msgid "-->"
+msgstr ""
+
+#. PictureFormatForm..Label8..Caption
+#: PictureFormatFrm.dfm:74
+msgid "Other(Use SPI)"
+msgstr "その他(SPI経由)"
+
+#. PictureFormatForm..Label10..Caption
+#: PictureFormatFrm.dfm:88
+msgid "Other(Use WIC)"
+msgstr "その他(WIC経由)"
+
+#. PNGOptionForm..Label1..Caption
+#: PNGOptionFrm.dfm:25
+msgid "Compression Level"
+msgstr "圧縮レベル"
+
+#. PNGOptionForm..GroupBox1..Caption
+#: PNGOptionFrm.dfm:32
+msgid "Filter"
+msgstr "使用フィルタ"
+
+#. PNGOptionForm..GroupBox1..CheckBox2..Caption
+#: PNGOptionFrm.dfm:47
+msgid "Sub"
+msgstr ""
+
+#. PNGOptionForm..GroupBox1..CheckBox3..Caption
+#: PNGOptionFrm.dfm:55
+msgid "Up"
+msgstr ""
+
+#. PNGOptionForm..GroupBox1..CheckBox4..Caption
+#: PNGOptionFrm.dfm:63
+msgid "Average"
+msgstr ""
+
+#. PNGOptionForm..GroupBox1..CheckBox5..Caption
+#: PNGOptionFrm.dfm:71
+msgid "Paeth"
+msgstr ""
+
+#. PNGOptionForm..CheckBox6..Caption
+#: PNGOptionFrm.dfm:101
+msgid "Save resolution"
+msgstr "解像度を記録する"
+
+#. PNGOptionForm..Panel1..CheckBox7..Caption
+#: PNGOptionFrm.dfm:124
+msgid "Optimize Using PNGOUT"
+msgstr "PNGOUTで最適化する"
+
+#. PNGOptionForm..Panel1..Panel2..CheckBox8..Caption
+#: PNGOptionFrm.dfm:140
+msgid "Maximum optimization(-s0 option)"
+msgstr "最大限の最適化(-s0 オプション)"
+
+#. PNGOptionForm..Panel1..Panel2..CheckBox9..Caption
+#: PNGOptionFrm.dfm:148
+msgid "Optimization of fullcolor PNG"
+msgstr "フルカラーPNGの最適化"
+
+#. PNGOptionForm..CheckBox11..Caption
+#: PNGOptionFrm.dfm:211
+msgid "Use WIC PNGDecoder"
+msgstr "WICのデコーダーを使用する"
+
+#. PreviewBaseForm..Caption
+#: PreviewBaseFrm.dfm:4
+msgid "PreviewBaseForm"
+msgstr ""
+
+#. PreviewForm..Caption
+#: PreviewFrm.dfm:6
+msgid "PreviewForm"
+msgstr ""
+
+#. PreviewForm..Panel1..Caption
+#: PreviewFrm.dfm:45
+msgid "Panel1"
+msgstr ""
+
+#. PreviewForm..PopupMenu1..ViewALL..Caption
+#: PreviewFrm.dfm:108
+msgid "Fit image to window"
+msgstr "全体表示"
+
+#. PreviewForm..PopupMenu1..View100..Caption
+#: PreviewFrm.dfm:114
+msgid "100%"
+msgstr ""
+
+#. PreviewForm..PopupMenu1..View200..Caption
+#: PreviewFrm.dfm:120
+msgid "200%"
+msgstr ""
+
+#. PreviewForm..PopupMenu1..View300..Caption
+#: PreviewFrm.dfm:126
+msgid "300%"
+msgstr ""
+
+#. PreviewForm..PopupMenu1..View400..Caption
+#: PreviewFrm.dfm:132
+msgid "400%"
+msgstr ""
+
+#. PreviewForm..PopupMenu1..EditSelect..Caption
+#: PreviewFrm.dfm:141
+msgid "Select Mode"
+msgstr "選択モード"
+
+#. PreviewForm..PopupMenu1..SelectAll..Caption
+#: PreviewFrm.dfm:149
+msgid "SelectAll"
+msgstr "すべて選択"
+
+#. PreviewOptionForm..Caption
+#: PreviewOptionFrm.dfm:5
+msgid "External Viewer Settings"
+msgstr "外部ビューア設定"
+
+#. PreviewOptionForm..Label2..Caption
+#: PreviewOptionFrm.dfm:32
+msgid "Option"
+msgstr "起動オプション"
+
+#. PreviewOptionForm..Label3..Caption
+#: PreviewOptionFrm.dfm:39
+msgid "Option2"
+msgstr "起動オプション2"
+
+#. PreviewOptionForm..OpenDialog1..Filter
+#: PreviewOptionFrm.dfm:96
+msgid "External Viewer(*.exe)|*.exe"
+msgstr "外部ビューア(*.exe)|*.exe"
+
+#. PreviewOptionForm..OpenDialog1..Title
+#: PreviewOptionFrm.dfm:98
+msgid "Select External Viewer"
+msgstr "外部ビューアの選択"
+
+#. ProgressForm..Caption
+#. ProgressForm2..Caption
+#: ProgressFrm.dfm:5
+msgid "Processing"
+msgstr "処理中"
+
+#. ResizeOptionForm..Caption
+#. Programmer's name for it: FILTER_NAME_RESIZE
+#: ResizeOptionFrm.dfm:5
+msgid "Resize"
+msgstr "リサイズ"
+
+#. ResizeOptionForm..Label1..Caption
+#: ResizeOptionFrm.dfm:26
+msgid "Downscaling"
+msgstr "縮小アルゴリズム"
+
+#. ResizeOptionForm..Label2..Caption
+#: ResizeOptionFrm.dfm:34
+msgid "Upscaling"
+msgstr "拡大アルゴリズム"
+
+#. ResizeOptionForm..Label3..Caption
+#: ResizeOptionFrm.dfm:42
+msgid "SIMD Method"
+msgstr "演算方法"
+
+#. ResizeOptionForm..Label4..Caption
+#. SystemOptionForm..Panel1..Label1..Caption
+#: ResizeOptionFrm.dfm:50
+msgid "Max Thread"
+msgstr "最大スレッド数"
+
+#. ResizeOptionForm..Panel3..Label8..Caption
+#. ResizeOptionForm..Panel4..Label7..Caption
+#: ResizeOptionFrm.dfm:186
+msgid "Sharp"
+msgstr "シャープ"
+
+#. ResizeOptionForm..Panel5..Label9..Caption
+#. ResizeOptionForm..Panel6..Label10..Caption
+#: ResizeOptionFrm.dfm:256
+msgid "Blur"
+msgstr "ぼかし"
+
+#. ResizeOptionForm..CheckBox1..Caption
+#. UnSharpMaskOptionForm..CheckBox1..Caption
+#: ResizeOptionFrm.dfm:319
+msgid "LinearRGB work space"
+msgstr "リニアな色空間で処理する"
+
+#. ResizeOptionForm..CheckBox2..Caption
+#: ResizeOptionFrm.dfm:328
+msgid "Don't upscaling "
+msgstr "拡大しない"
+
+#. RotationOptionForm..Caption
+#. Programmer's name for it: FILTER_NAME_ROTATION
+#: RotationOptionFrm.dfm:5
+msgid "Rotation"
+msgstr "回転"
+
+#. RotationOptionForm..RadioButton1..Caption
+#: RotationOptionFrm.dfm:25
+msgid "All"
+msgstr "すべての画像を対象にする"
+
+#. RotationOptionForm..RadioButton2..Caption
+#: RotationOptionFrm.dfm:35
+msgid "Landscape"
+msgstr "横長画像のみ"
+
+#. RotationOptionForm..RadioButton3..Caption
+#: RotationOptionFrm.dfm:43
+msgid "Portrait"
+msgstr "縦長画像のみ"
+
+#. RotationOptionForm..ComboBox1....Items.Strings
+#: RotationOptionFrm.dfm:59
+msgid "Flip Horizontal"
+msgstr "左右反転"
+
+#. RotationOptionForm..ComboBox1....Items.Strings
+#: RotationOptionFrm.dfm:60
+msgid "Flip Virtical"
+msgstr "上下反転"
+
+#. SusiePluginOptionForm..Caption
+#: SusiePluginOptionFrm.dfm:5
+msgid "Susie Plug-in Settings"
+msgstr "Susie Plug-in設定"
+
+#. SusiePluginOptionForm..Label1..Caption
+#: SusiePluginOptionFrm.dfm:25
+msgid "Susie Plug-in Folder"
+msgstr "Susie Plug-inフォルダ"
+
+#. SystemOptionForm..Caption
+#: SystemOptionFrm.dfm:5
+msgid "System Settings"
+msgstr "システム設定"
+
+#. SystemOptionForm..Label2..Caption
+#: SystemOptionFrm.dfm:25
+msgid "Numbering start value"
+msgstr "連番初期値"
+
+#. SystemOptionForm..CheckBox1..Caption
+#: SystemOptionFrm.dfm:46
+msgid "Parallel processing"
+msgstr "複数ファイルを並列処理する"
+
+#. SystemOptionForm..CheckBox2..Caption
+#: SystemOptionFrm.dfm:77
+msgid "Reserve memory for bigimage"
+msgstr "特大画像用にメモリを予約する"
+
+#. SystemOptionForm..CheckBox3..Caption
+#: SystemOptionFrm.dfm:85
+msgid "Don't overwrite"
+msgstr "上書きを回避する"
+
+#. SystemOptionForm..CheckBox5..Caption
+#: SystemOptionFrm.dfm:94
+msgid "Include subfolder"
+msgstr "サブフォルダも処理する"
+
+#. SystemOptionForm..CheckBox7..Caption
+#: SystemOptionFrm.dfm:102
+msgid "Clear filelist after conversion"
+msgstr "変換後にリストから削除"
+
+#. SystemOptionForm..Panel2..RadioButton1..Caption
+#: SystemOptionFrm.dfm:138
+msgid "Rename"
+msgstr "別のファイル名を割り当てる"
+
+#. SystemOptionForm..Panel2..RadioButton2..Caption
+#: SystemOptionFrm.dfm:148
+msgid "Skip"
+msgstr "処理をスキップする"
+
+#. SystemOptionForm..RadioButton3..Caption
+#: SystemOptionFrm.dfm:164
+msgid "Always reset"
+msgstr "毎回リセットする"
+
+#. SystemOptionForm..RadioButton4..Caption
+#: SystemOptionFrm.dfm:172
+msgid "Reset at startup"
+msgstr "起動時にリセットする"
+
+#. SystemOptionForm..RadioButton5..Caption
+#: SystemOptionFrm.dfm:180
+msgid "Don't reset"
+msgstr "リセットしない"
+
+#. SystemOptionForm..CheckBox4..Caption
+#: SystemOptionFrm.dfm:188
+msgid "Ignore readonly attribute"
+msgstr "読み取り専用ファイルも上書きする"
+
+#. SystemOptionForm..CheckBox6..Caption
+#: SystemOptionFrm.dfm:196
+msgid "Use external tool after conversion"
+msgstr "変換終了後に外部ツールを起動する"
+
+#. SystemOptionForm..CheckBox8..Caption
+#: SystemOptionFrm.dfm:228
+msgid "Don't check file with listup"
+msgstr "リストアップする際にファイルをチェックしない"
+
+#. SystemOptionForm..CheckBox9..Caption
+#: SystemOptionFrm.dfm:255
+msgid "Sort files in folder"
+msgstr "フォルダ内のファイルをソートする"
+
+#. SystemOptionForm..CheckBox10..Caption
+#: SystemOptionFrm.dfm:263
+msgid "Delete input files"
+msgstr "元ファイルを削除する"
+
+#. SystemOptionForm..CheckBox11..Caption
+#: SystemOptionFrm.dfm:271
+msgid "Abort processing on error"
+msgstr "エラー発生時に処理を中止する"
+
+#. ToneCurveOptionForm..Caption
+#. Programmer's name for it: FILTER_NAME_TONECURVE
+#: ToneCurveOptionFrm.dfm:5
+msgid "ToneCurve"
+msgstr "トーンカーブ"
+
+#. ToneCurveOptionForm..Label2..Caption
+#: ToneCurveOptionFrm.dfm:45
+msgid "x=0,y=0"
+msgstr ""
+
+#. ToneCurveOptionForm..Label3..Caption
+#: ToneCurveOptionFrm.dfm:55
+msgid "Preset"
+msgstr "プリセット"
+
+#. ToneCurveOptionForm..Button5..Caption
+#: ToneCurveOptionFrm.dfm:146
+msgid "Save"
+msgstr "保存"
+
+#. ToneCurveOptionForm..SaveDialog1..DefaultExt
+#: ToneCurveOptionFrm.dfm:172
+msgid "txt"
+msgstr ""
+
+#. ToneCurveOptionForm..SaveDialog1..Filter
+#: ToneCurveOptionFrm.dfm:173
+msgid "(*.txt)|*.txt"
+msgstr ""
+
+#. TrimmingOptionForm..Label1..Caption
+#: TrimmingOptionFrm.dfm:26
+msgid "Params"
+msgstr "範囲指定方法"
+
+#. TrimmingOptionForm..ComboBox1....Items.Strings
+#: TrimmingOptionFrm.dfm:89
+msgid "Left,Top,Width,Height(px)"
+msgstr "左,上,幅,高さ(px)"
+
+#. TrimmingOptionForm..Panel1..Label4..Caption
+#: TrimmingOptionFrm.dfm:124
+msgid "SelectMode"
+msgstr "選択モード"
+
+#. TrimmingOptionForm..Panel1..Button3..Caption
+#: TrimmingOptionFrm.dfm:140
+msgid "Add"
+msgstr "追加"
+
+#. TrimmingOptionForm..Panel1..Button4..Caption
+#: TrimmingOptionFrm.dfm:149
+msgid "Del"
+msgstr "削除"
+
+#. UnSharpMaskOptionForm..Caption
+#: UnSharpMaskOptionFrm.dfm:5
+msgid "Unsharpmask"
+msgstr "アンシャープマスク"
+
+#. UnSharpMaskOptionForm..Label1..Caption
+#: UnSharpMaskOptionFrm.dfm:26
+msgid "Amount(+)"
+msgstr "適用量(+)"
+
+#. UnSharpMaskOptionForm..Label2..Caption
+#: UnSharpMaskOptionFrm.dfm:34
+msgid "Amount(-)"
+msgstr "適用量(-)"
+
+#. UnSharpMaskOptionForm..Label4..Caption
+#: UnSharpMaskOptionFrm.dfm:50
+msgid "Threshold"
+msgstr "閾値"
+
+#. UnSharpMaskOptionForm..CheckBox3..Caption
+#: UnSharpMaskOptionFrm.dfm:152
+msgid "Luma Only"
+msgstr "輝度チャンネルのみ"
+
+#: AboutFrm.pas:53
+msgid "Maximum size of memory block"
+msgstr "最大メモリブロックサイズ"
+
+#. Programmer's name for it: FILTER_NAME_EXIFROTATION
+#: ResourceText.pas:6
+msgid "ExifRotation"
+msgstr "Exif自動回転"
+
+#. Programmer's name for it: FILTER_NAME_GRAYSCALE
+#: ResourceText.pas:9
+msgid "Grayscale"
+msgstr "グレースケール化"
+
+#. Programmer's name for it: FILTER_NAME_UNSHARPMASK
+#: ResourceText.pas:12
+msgid "UnsharpMask"
+msgstr "アンシャープマスク"
+
+#. Programmer's name for it: FILTER_NAME_COLORADJUST
+#: ResourceText.pas:14
+msgid "ColorAdjust"
+msgstr "色調補正"
+
+#. Programmer's name for it: FILTER_NAME_DECREASECOLOR
+#: ResourceText.pas:16
+msgid "DecreaseColor"
+msgstr "減色"
+
+#. Programmer's name for it: SIMD_MMXINT
+#: ResourceText.pas:20
+msgid "MMX Integer"
+msgstr "MMX整数"
+
+#. Programmer's name for it: SIMD_SSEFLOAT
+#: ResourceText.pas:21
+msgid "SSE Float"
+msgstr "SSE実数"
+
+#. Programmer's name for it: SIMD_SSE2INT
+#: ResourceText.pas:22
+msgid "SSE2 Integer"
+msgstr "SSE2整数"
+
+#. Programmer's name for it: RESIZE_FUNC_AVERAGE
+#: ResourceText.pas:24
+msgid "AreaAverage"
+msgstr "平均画素法"
+
+#. Programmer's name for it: RESIZE_FUNC_LANCZOS
+#: ResourceText.pas:25
+msgid "Lanczos"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_BILINEAR
+#: ResourceText.pas:26
+msgid "Bilinear"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_BICUBIC
+#: ResourceText.pas:27
+msgid "Bicubic"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_BLACKMANSINC
+#: ResourceText.pas:28
+msgid "BlackmanSinc"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_SPLINE16
+#: ResourceText.pas:29
+msgid "Spline16"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_SPLINE36
+#: ResourceText.pas:30
+msgid "Spline36"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_GAUSSIAN
+#: ResourceText.pas:31
+msgid "Gaussian"
+msgstr ""
+
+#. Programmer's name for it: RESIZE_FUNC_NEARESTNEIGHBOR
+#: ResourceText.pas:32
+msgid "NearestNeighbor"
+msgstr ""
+
+#. Programmer's name for it: DIALOG_CAPTION_INPUTCONTROLPOINT
+#: ResourceText.pas:34
+msgid "Input control point"
+msgstr "制御点の座標入力"
+
+#. Programmer's name for it: DIALOG_CAPTION_ADDSELECTMODE
+#: ResourceText.pas:35
+msgid "Add select mode"
+msgstr "選択モードの追加"
+
+#. Programmer's name for it: DIALOG_CAPTION_ERROR
+#: ResourceText.pas:36
+msgid "Error"
+msgstr ""
+
+#. Programmer's name for it: MSG_INPUTASPECTRATIO
+#: ResourceText.pas:38
+msgid "Input aspect ratio"
+msgstr "アスペクト比を入力してください"
+
+#. Programmer's name for it: MSG_CLEARLIST_CONFIRM
+#: ResourceText.pas:39
+msgid "All files are removed from a list. OK?"
+msgstr ""
+"リストをクリアします。\n"
+"よろしいですか？"
+
+#. Programmer's name for it: MSG_JPEGTRANMODE_CONFIRM
+#: ResourceText.pas:40
+msgid "All files other than JPEG are removed from a list. OK?"
+msgstr ""
+"JPEG以外のファイルをリストから削除します。\n"
+"よろしいですか？"
+
+#. Programmer's name for it: MSG_OVERWRITE_CONFIRM
+#: ResourceText.pas:41
+msgid ""
+"%s already exists\n"
+"Does it overwrite?"
+msgstr ""
+"%sはすでに存在しています。\n"
+"上書きしますか？"
+
+#. Programmer's name for it: MSG_SELECTOUTPUTFOLDER
+#: ResourceText.pas:42
+msgid "Select output floder"
+msgstr "出力フォルダの選択"
+
+#. Programmer's name for it: MSG_SELECTADDFOLDER
+#: ResourceText.pas:43
+msgid "Select folder to add"
+msgstr "追加するフォルダの選択"
+
+#. Programmer's name for it: DITHER_TYPE_GPEANOS
+#: ResourceText.pas:46
+msgid "gPeanos"
+msgstr ""
+
+#. Programmer's name for it: DITHER_TYPE_FS
+#: ResourceText.pas:47
+msgid "Floyd-Steinberg"
+msgstr "誤差拡散"
+
+#. Programmer's name for it: DITHER_TYPE_JJN
+#: ResourceText.pas:48
+msgid "Jarvis, Judice & Ninke"
+msgstr "平均誤差"
+
+#. Programmer's name for it: DITHER_TYPE_ANIME
+#: ResourceText.pas:49
+msgid "Anime"
+msgstr "アニメ"
+
+#. Programmer's name for it: RESIZE_PARAM_SCALE
+#: ResourceText.pas:51
+msgid "Scale"
+msgstr "倍率"
+
+#. Programmer's name for it: RESIZE_PARAM_WIDE
+#: ResourceText.pas:52
+msgid "Wide"
+msgstr "長辺"
+
+#. Programmer's name for it: RESIZE_PARAM_NARROW
+#: ResourceText.pas:53
+msgid "Narrow"
+msgstr "短辺"
+
+#. Programmer's name for it: HINT_RENAMERULE
+#: ResourceText.pas:57
+msgid ""
+"<ymd> date\n"
+"<ymdhns> datetime\n"
+"<yy> year\n"
+"<yyyy> year\n"
+"<mm> month\n"
+"<dd> day\n"
+"<hh> hour\n"
+"<nn> minute\n"
+"<ss> second\n"
+"<old> filename\n"
+"<ext> extension\n"
+"<dir> relative path\n"
+"<pdir> parent directory\n"
+"<base> base directory\n"
+"<n*> numbering *=number of digits\n"
+"<s*> *=numbering start value\n"
+"<c*> filecount *=number of digits"
+msgstr ""
+"<ymd> 年月日\n"
+"<ymdhns> 年月日時分秒\n"
+"<yy> 年\n"
+"<yyyy> 年\n"
+"<mm> 月\n"
+"<dd> 日\n"
+"<hh> 時\n"
+"<nn> 分\n"
+"<ss> 秒\n"
+"<old> ファイル名\n"
+"<ext> 拡張子\n"
+"<dir> 相対パス\n"
+"<pdir> 親フォルダ名\n"
+"<base> ベースフォルダ\n"
+"<n*> 連番　*=桁数\n"
+"<s*> 連番初期値\n"
+"<c*> ファイル数"
+
+#. Programmer's name for it: HINT_ADDTEXT
+#: ResourceText.pas:58
+msgid ""
+"<ymd> date(yy/mm/dd)\n"
+"<ymdhn> datetime (yy/mm/dd hh:nn)\n"
+"<ymdhns> datetime(yy/mm/dd hh:nn:ss)\n"
+"<yy> year\n"
+"<yyyy> year\n"
+"<mm> month\n"
+"<dd> day\n"
+"<hh> hour\n"
+"<nn> minute\n"
+"<ss> second\n"
+"<old> input filename(name+extension)\n"
+"<oldname> input filename\n"
+"<new> output filename(name+extension)\n"
+"<newname> output filename\n"
+"<n*> numbering *=number of digits\n"
+"<s*> *=numbering start value"
+msgstr ""
+"<ymd> 日付(yy/mm/dd)\n"
+"<ymdhn> 日付(yy/mm/dd hh:nn)\n"
+"<ymdhns> 日付(yy/mm/dd hh:nn:ss)\n"
+"<yy> 年\n"
+"<yyyy> 年\n"
+"<mm> 月\n"
+"<dd> 日\n"
+"<hh> 時\n"
+"<nn> 分\n"
+"<ss> 秒\n"
+"<old> 入力ファイル名(拡張子付き)\n"
+"<oldname> 入力ファイル名\n"
+"<new> 出力ファイル名(拡張子付き)\n"
+"<newname> 出力ファイル名\n"
+"<n*> 連番 *=桁数\n"
+"<s*> *=連番初期値"
+
+#. Programmer's name for it: ERROR_MSG_EVALCHECK
+#: ResourceText.pas:61
+msgid "Error occurred in evaluation of the inputted parameter"
+msgstr "式の評価でエラーが発生しました。"
+
+#. Programmer's name for it: ERROR_MSG_BADFILENAME
+#: ResourceText.pas:62
+msgid "Character which cannot be used for a file name is contained"
+msgstr "ファイル名に使用出来ない文字が含まれています。"
+
+#. Programmer's name for it: ERROR_MSG_RENAME_FAILED
+#: ResourceText.pas:63
+msgid "Failed to rename file"
+msgstr "リネームに失敗しました。"
+
+#. Programmer's name for it: ERROR_MSG_FILECOPY_FAILED
+#: ResourceText.pas:64
+msgid "Failed to copy file"
+msgstr "ファイルコピーに失敗しました。"
+
+#. Programmer's name for it: ERROR_MSG_FILELOAD_FAILED
+#: ResourceText.pas:65
+msgid "Failed to load file"
+msgstr "ファイルのロードに失敗しました。"
+
+#. Programmer's name for it: ERROR_MSG_SETFILEATTRIBUTE_FAILED
+#: ResourceText.pas:66
+msgid "Failed to set file attributes"
+msgstr "ファイルの属性変更に失敗しました。"
+
+#. Programmer's name for it: ERROR_MSG_EXIFBROKEN
+#: ResourceText.pas:67
+msgid "There is possibility that Exif information is damaged"
+msgstr "Exif情報が破損している可能性があります。"
+
+#. Programmer's name for it: ERROR_MSG_UNKNOWNFORMAT
+#: ResourceText.pas:68
+msgid "Unknown format"
+msgstr ""
+
+#. Programmer's name for it: SELECTMODE_FREESIZE
+#: ResourceText.pas:70
+msgid "Free size"
+msgstr "フリーサイズ"
+
+#. Programmer's name: BLOCK
+#: bin/imgrw/imgrw.rc:12
+msgid "VarFileInfo"
+msgstr ""
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:14
+msgid "Translation"
+msgstr "透過色"
+
+#. Programmer's name: BLOCK
+#: bin/imgrw/imgrw.rc:17
+msgid "StringFileInfo"
+msgstr ""
+
+#. Programmer's name: BLOCK
+#: bin/imgrw/imgrw.rc:19
+msgid "041104B0"
+msgstr ""
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:21
+msgid "Comments"
+msgstr "列"
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:22
+msgid "FileDescription"
+msgstr ""
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:23
+msgid "FileVersion"
+msgstr ""
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:24
+msgid "LegalCopyright"
+msgstr ""
+
+#. Programmer's name: VALUE
+#: bin/imgrw/imgrw.rc:25
+msgid "OriginalFilename"
+msgstr ""
