@@ -24,19 +24,14 @@
 		<!-- DBのパス -->
 	    <url uname="junapp" pw="">jdbc:h2:./main2_2023</url>
 	    <!-- <url uname="junapp" pw="">jdbc:h2:tcp://localhost/./main2_2023</url> -->
-		<!-- 検査する金物の略称 -->
-	    <attachmenttype>t25,t25d</attachmenttype>
+		<!-- 検査する金物の略称,で区切って複数できます。 -->
+	    <attachmenttype>t25</attachmenttype>
 		<!-- ロットの設定 -->
 	    <rotdef attachment="t25" num="12">2501</rotdef>
-	    <rotdef attachment="t25" num="13">2502</rotdef>
-	    <rotdef attachment="t25" num="14">2503</rotdef>
+	    <rotdef attachment="t25" num="12">2502</rotdef>
+	    <rotdef attachment="t25" num="12">2503</rotdef>
 	    <rotdef attachment="t25" num="12">2504</rotdef>
-	    <rotdef attachment="t25" num="12">2505</rotdef>
-	    <rotdef attachment="t25" num="12">2506</rotdef>
-	    <rotdef attachment="t25" num="12">2507</rotdef>
-	    <rotdef attachment="t25" num="12">2508</rotdef>
-	    <rotdef attachment="t25" num="12">2509</rotdef>
-	    <rotdef attachment="t25" num="12">2510</rotdef>
+	    <rotdef attachment="t25" num="10">2505</rotdef>
 	</Setting>
 
 

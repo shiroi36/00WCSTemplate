@@ -5,6 +5,7 @@
  */
 package core;
 
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,17 +36,41 @@ public class xmlcontroller {
         try {
             xmlcontroller xml = new xmlcontroller();
 
-//            xml.getSQL();
-//            String[][] val=xml.getRotDefinition();
-//            log.info(val.length);
-//            for (int i = 0; i < val.length; i++) {
-//                String[] val2 = val[i];
-//                log.info(Arrays.toString(val2));
-//            }
-            
+            SQL_OPE sql = xml.getSQL();
+            String[][] rot_type = xml.getRotDefinition();
+            log.info(rot_type.length);
+            for (int i = 0; i < rot_type.length; i++) {
+                String[] val2 = rot_type[i];
+                log.info(Arrays.toString(val2));
+            }
+
 //            log.info(Arrays.toString(xml.getAttachmentType()));
-            
-            xml.getInspectionDatas();
+            AttachmentInspection2 ains = new AttachmentInspection2(sql, rot_type);
+
+            InspectionData idatas[] = xml.getInspectionDatas();
+
+            //<editor-fold defaultstate="collapsed" desc="処理プログラム">
+            for (int i = 0; i < idatas.length; i++) {
+                log.info("Input Inspection at DAY:" + idatas[i].getDay());
+                ains.Inspection(idatas[i]);
+            }
+
+            if (idatas.length >= 1) {
+                log.info("Creating Inspection Report at DAY:" + idatas[idatas.length - 1].getDay());
+                ains.OutputOneInspectionResult(
+                        xml.getAttachmentType(),
+                        idatas[idatas.length - 1].getDay(),
+                        "output/");
+                log.info("Creating Cumulative Inspection Report at DAY:" + idatas[idatas.length - 1].getDay());
+
+            }
+
+            //すべての金物生産情報docファイルを出力します。
+            ains.OoutputAllInspectionResult(
+                    xml.getAttachmentType(),
+                    "output/allresult.doc"
+            );
+//</editor-fold>
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,115 +86,115 @@ public class xmlcontroller {
         dbf = DocumentBuilderFactory.newInstance();
 
     }
-    
-    public InspectionData[] getInspectionDatas() throws SAXException, IOException, ParserConfigurationException{
-        
+
+    public InspectionData[] getInspectionDatas() throws SAXException, IOException, ParserConfigurationException {
+
         DocumentBuilder db = dbf.newDocumentBuilder();
         Document doc = db.parse("Inspection.xml");
 
         // ルート要素を取得
         Element root = doc.getDocumentElement();
 
-        Element[] elem=this.getElements(root, "inspection");
-        InspectionData[] id=new InspectionData[elem.length];
+        Element[] elem = this.getElements(root, "inspection");
+        InspectionData[] id = new InspectionData[elem.length];
         for (int i = 0; i < elem.length; i++) {
-            id[i]=this.getInspectionData(elem[i]);
+            id[i] = this.getInspectionData(elem[i]);
         }
         return id;
     }
-    
-    private InspectionData getInspectionData(Element elem){
-        String day=elem.getAttribute("day");
-        log.debug("day:"+day);
-        String photopath=elem.getAttribute("photo");
-        log.debug("photopath;"+photopath);
-        Element[] pallet=this.getElements(elem, "pallet");
-        InspectionRotInfo iri[]=new InspectionRotInfo[pallet.length];
+
+    private InspectionData getInspectionData(Element elem) {
+        String day = elem.getAttribute("day");
+        log.debug("day:" + day);
+        String photopath = elem.getAttribute("photo");
+        log.debug("photopath;" + photopath);
+        Element[] pallet = this.getElements(elem, "pallet");
+        InspectionRotInfo iri[] = new InspectionRotInfo[pallet.length];
         for (int i = 0; i < iri.length; i++) {
             int rotno;
             log.debug(pallet[i].getAttribute("rotno"));
 //            log.debug(pallet[i].getTextContent());
-            if(pallet[i].getAttribute("rotno").contains("PALLET_ID_ORDERED")){
-                rotno=AttachmentInspection2.PALLET_ID_ORDERED;
-            }else{
-                rotno=Integer.parseInt(pallet[i].getAttribute("rotno"));
+            if (pallet[i].getAttribute("rotno").contains("PALLET_ID_ORDERED")) {
+                rotno = AttachmentInspection2.PALLET_ID_ORDERED;
+            } else {
+                rotno = Integer.parseInt(pallet[i].getAttribute("rotno"));
             }
-            String[] photo=pallet[i].getTextContent().trim().split(",");
-            iri[i]=new InspectionRotInfo(rotno,photo);
-            log.debug("rotno:"+iri[i].getRotno()+"\tphoto;"+Arrays.toString(iri[i].getRotPicData()));
+            String[] photo = pallet[i].getTextContent().trim().split(",");
+            iri[i] = new InspectionRotInfo(rotno, photo);
+            log.debug("rotno:" + iri[i].getRotno() + "\tphoto;" + Arrays.toString(iri[i].getRotPicData()));
         }
-        Element[] relem=this.getElements(elem, "order");
-        Attachment[] order=new Attachment[relem.length];
+        Element[] relem = this.getElements(elem, "order");
+        Attachment[] order = new Attachment[relem.length];
         for (int i = 0; i < relem.length; i++) {
-            int rotno=Integer.parseInt(relem[i].getAttribute("rotno"));
-            int pno=Integer.parseInt(relem[i].getAttribute("pno"));
+            int rotno = Integer.parseInt(relem[i].getAttribute("rotno"));
+            int pno = Integer.parseInt(relem[i].getAttribute("pno"));
             String direction;
-            if(relem[i].getAttribute("lr").toLowerCase().contains("l")){
-                direction=Attachment.L;
-            }else{
-                direction=Attachment.R;
+            if (relem[i].getAttribute("lr").toLowerCase().contains("l")) {
+                direction = Attachment.L;
+            } else {
+                direction = Attachment.R;
             }
-            String remark=relem[i].getAttribute("remark");
-            String[] photo=relem[i].getTextContent().trim().split(",");
-            order[i]=new Attachment(rotno,pno,direction,remark,photo);
+            String remark = relem[i].getAttribute("remark");
+            String[] photo = relem[i].getTextContent().trim().split(",");
+            order[i] = new Attachment(rotno, pno, direction, remark, photo);
             log.debug(order[i].getAttachmentName());
         }
-        relem=this.getElements(elem, "order");
-        Attachment[] repair=new Attachment[relem.length];
+        relem = this.getElements(elem, "order");
+        Attachment[] repair = new Attachment[relem.length];
         for (int i = 0; i < relem.length; i++) {
-            int rotno=Integer.parseInt(relem[i].getAttribute("rotno"));
-            int pno=Integer.parseInt(relem[i].getAttribute("pno"));
+            int rotno = Integer.parseInt(relem[i].getAttribute("rotno"));
+            int pno = Integer.parseInt(relem[i].getAttribute("pno"));
             String direction;
-            if(relem[i].getAttribute("lr").toLowerCase().contains("l")){
-                direction=Attachment.L;
-            }else{
-                direction=Attachment.R;
+            if (relem[i].getAttribute("lr").toLowerCase().contains("l")) {
+                direction = Attachment.L;
+            } else {
+                direction = Attachment.R;
             }
-            String remark="";
-            String[] photo=relem[i].getTextContent().trim().split(",");
-            repair[i]=new Attachment(rotno,pno,direction,"",photo);
+            String remark = "";
+            String[] photo = relem[i].getTextContent().trim().split(",");
+            repair[i] = new Attachment(rotno, pno, direction, "", photo);
             log.debug(repair[i].getAttachmentName());
         }
-        relem=this.getElements(elem, "defective");
-        Attachment[] defective=new Attachment[relem.length];
+        relem = this.getElements(elem, "defective");
+        Attachment[] defective = new Attachment[relem.length];
         for (int i = 0; i < relem.length; i++) {
-            int rotno=Integer.parseInt(relem[i].getAttribute("rotno"));
-            int pno=Integer.parseInt(relem[i].getAttribute("pno"));
+            int rotno = Integer.parseInt(relem[i].getAttribute("rotno"));
+            int pno = Integer.parseInt(relem[i].getAttribute("pno"));
             String direction;
-            if(relem[i].getAttribute("lr").toLowerCase().contains("l")){
-                direction=Attachment.L;
-            }else{
-                direction=Attachment.R;
+            if (relem[i].getAttribute("lr").toLowerCase().contains("l")) {
+                direction = Attachment.L;
+            } else {
+                direction = Attachment.R;
             }
-            String remark=relem[i].getAttribute("remark");
-            String[] photo=relem[i].getTextContent().trim().split(",");
-            defective[i]=new Attachment(rotno,pno,direction,remark,photo);
+            String remark = relem[i].getAttribute("remark");
+            String[] photo = relem[i].getTextContent().trim().split(",");
+            defective[i] = new Attachment(rotno, pno, direction, remark, photo);
             log.debug(defective[i].getAttachmentName());
         }
-        relem=this.getElements(elem, "defective");
-        Attachment[] macro=new Attachment[relem.length];
+        relem = this.getElements(elem, "defective");
+        Attachment[] macro = new Attachment[relem.length];
         for (int i = 0; i < relem.length; i++) {
-            int rotno=Integer.parseInt(relem[i].getAttribute("rotno"));
-            int pno=Integer.parseInt(relem[i].getAttribute("pno"));
+            int rotno = Integer.parseInt(relem[i].getAttribute("rotno"));
+            int pno = Integer.parseInt(relem[i].getAttribute("pno"));
             String direction;
-            if(relem[i].getAttribute("lr").toLowerCase().contains("l")){
-                direction=Attachment.L;
-            }else{
-                direction=Attachment.R;
+            if (relem[i].getAttribute("lr").toLowerCase().contains("l")) {
+                direction = Attachment.L;
+            } else {
+                direction = Attachment.R;
             }
-            String remark="";
-            String[] photo=relem[i].getTextContent().trim().split(",");
-            macro[i]=new Attachment(rotno,pno,direction,remark,photo);
+            String remark = "";
+            String[] photo = relem[i].getTextContent().trim().split(",");
+            macro[i] = new Attachment(rotno, pno, direction, remark, photo);
             log.debug(macro[i].getAttachmentName());
         }
-        
+
         //ここから下は、いじらないでください
         return new InspectionData(
-                day, 
-                iri, 
-                order, 
-                repair, 
-                defective, 
+                day,
+                iri,
+                order,
+                repair,
+                defective,
                 macro,
                 photopath);
     }
@@ -219,8 +244,8 @@ public class xmlcontroller {
         for (int i = 0; i < rotdef.length; i++) {
             Element elem = rotdef[i];
             String[] val2 = new String[]{
-                elem.getAttribute("attachment"),
                 elem.getTextContent(),
+                elem.getAttribute("attachment"),
                 elem.getAttribute("num")
             };
 //            log.info(Arrays.toString(val2));
