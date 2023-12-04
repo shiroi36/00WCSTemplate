@@ -139,7 +139,7 @@ public class xmlcontroller {
             order[i] = new Attachment(rotno, pno, direction, remark, photo);
             log.debug(order[i].getAttachmentName());
         }
-        relem = this.getElements(elem, "order");
+        relem = this.getElements(elem, "repair");
         Attachment[] repair = new Attachment[relem.length];
         for (int i = 0; i < relem.length; i++) {
             int rotno = Integer.parseInt(relem[i].getAttribute("rotno"));
