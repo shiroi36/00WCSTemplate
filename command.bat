@@ -1,3 +1,4 @@
+chcp 65001
 git init
 git remote add origin git@github.com:shiroi36/00WCSTemplate.git
 git add .
